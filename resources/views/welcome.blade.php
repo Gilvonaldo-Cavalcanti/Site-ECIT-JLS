@@ -4,9 +4,10 @@
 
 @section('content')
 
-<div class="imagem-principal">
-  <img src="https://i0.wp.com/www.caririligado.com.br/wp-content/uploads/2020/12/escolaestadual-1.jpg?resize=800%2C400&quality=90&strip=all&ssl=1" alt="">
-</div>
+<img class="imagem-principal" src="img/escolajls.webp" alt="">
+
+
+
 
 <div id="search-container" class="col=-md-12">
     <h1>Busque uma Notícia</h1>
