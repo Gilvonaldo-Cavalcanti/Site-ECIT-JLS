@@ -67,14 +67,14 @@
         
 <div id="body"> 
   
-<div id="chat-circle" class="btn btn-raised">
+  <div id="chat-circle" class="btn btn-raised prime zmdi zmdi-comment-outline zmdi-hc-2x">
         <div id="chat-overlay"></div>
-        <i class="prime zmdi zmdi-comment-outline"></i>
   </div>
   
   <div class="chat-box">
     <div class="chat-box-header">
-      ChatBot
+      <span class="chat-box-profile"><i class="zmdi zmdi-account-circle"></i></span>
+      Tire Suas Dúvidas 
       <span class="chat-box-toggle"><i class="zmdi zmdi-close"></i></span>
     </div>
     <div class="chat-box-body">
@@ -98,6 +98,33 @@
 
     <script src="js/app.js"></script>
 
-        <footer>ECIT José Leite de Souza &copy; 2022</footer>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Endereço</h3>
+                        <ul>
+                            <li>Rua Wagner Augusto Bezerra Japiassú</li>
+                            <li>Nº 00, Centro</li>
+                            <li>Monteiro - PB</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Sobre</h3>
+                        <ul>
+                            <li><a href="#">Equipe de Desenvolvimento do Site</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Institucional</h3>
+                        <p>Escola Integral Técnica José Leite de Souza oferece cursos técnicos, integrados ao ensino médio, de Manutenção e Suporte em Informática e Instrumento Musical.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="zmdi zmdi-facebook"></i></a><a href="#"><i class="zmdi zmdi-twitter"></i></a><a href="#"><i class="zmdi zmdi-youtube"></i></a><a href="#"><i class="zmdi zmdi-linkedin"></i></a></div>
+                </div>
+                <p class="copyright">ECIT José Leite de Souza © 2022</p>
+            </div>
+        </footer>
+    </div>
     </body>
 </html>
