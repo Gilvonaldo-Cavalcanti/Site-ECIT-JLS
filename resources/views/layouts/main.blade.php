@@ -16,6 +16,50 @@
   </head>
 
   <body>
+  
+
+  <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+                    <img id="logo" src="img/logo-jls.png" alt="logo">
+               </div>
+               <div class="menu">
+                  <ul>
+                    
+                    <li><a href="..." target="_blank">Institucional</a></li>
+                    <li><a href="..." target="_blank">Eventos</a></li>
+                    <li><a href="..." target="_blank">Nossa História</a></li>
+                    <li><a href="..." target="_blank">Contato</a></li>
+                
+                    @guest
+                
+                    <li><a href="/register" target="_blank">Cadastrar</a></li>
+                    <li><a href="/login" target="_blank">Entrar</a></li>
+
+                    @endguest
+                
+                    @auth
+                
+                    <form action="/logout" method="POST">
+                        @csrf
+                        <li><a href="/logout"
+                        onclick="event.preventDefault();
+                        this.closest('form').submit();">
+                        Sair</a></li>
+                    </form>
+                    @endauth
+
+                  </ul>
+               </div>
+            </nav>
+         </header>
+
+
+  <!--
+
         <header>
             <div class="nav">
             <input type="checkbox" id="nav-check">
@@ -40,12 +84,28 @@
                 <a href="..." target="_blank">Nossa História</a>
                 <a href="..." target="_blank">Contato</a>
                 
-                <a id="cadastrar" href="..." target="_blank">Cadastrar</a>
-                <a id="entrar" href="..." target="_blank">Entrar</a>
+                @guest
+                
+                <a href="/register" target="_blank">Cadastrar</a>
+                <a href="/login" target="_blank">Entrar</a>
+
+                @endguest
+                
+                @auth
+                
+                <form action="/logout" method="POST">
+                    @csrf
+                    <a href="/logout"
+                    onclick="event.preventDefault();
+                    this.closest('form').submit();">
+                    Sair</a>
+                </form>
+                @endauth
                 
             </div>
             </div>
         </header>
+-->
 
         <script src="/js/app.js"></script>
 

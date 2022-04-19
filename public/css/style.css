@@ -2,7 +2,7 @@
   margin: 0;
   font-family: 'segoe ui';
 }
-
+/*
 .nav {
  
   background-color: #4d4d4d;
@@ -37,6 +37,7 @@
   text-decoration: none;
   color: #efefef;
 }
+*/
 
 #cadastrar, #entrar {
   display: inline;
@@ -364,4 +365,98 @@ main {
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
+}
+
+
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 5;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #4d4d4d;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 786px) {
+
+  .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #4d4d4d;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
 }

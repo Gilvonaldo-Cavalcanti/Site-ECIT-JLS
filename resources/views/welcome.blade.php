@@ -1,13 +1,10 @@
 @extends('layouts.main')
 
-@section('title', 'Site JLS')
+@section('title', 'ECIT José Leite de Souza')
 
 @section('content')
 
 <img class="imagem-principal" src="img/escolajls.webp" alt="">
-
-
-
 
 <div id="search-container" class="col=-md-12">
     <h1>Busque uma Notícia</h1>
