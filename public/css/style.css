@@ -36,12 +36,15 @@
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: #efefef;
+  border-radius: 4px; /* Alteração na borda em cadastrar e em entrar */
 }
 
 #cadastrar, #entrar {
   display: inline;
   float: right;
-}
+  border-radius: 4px; /* Alteração na borda em cadastrar e em entrar */
+} 
+
 
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
