@@ -104,9 +104,9 @@
 <div class="card bg-dark text-white">
   <img class="card-img" src="https://todospelaeducacao.org.br/wordpress/wp-content/uploads/2020/10/thumb-irs.png" alt="Card image">
   <div class="card-img-overlay">
+
     <h5 class="card-title">Ensino Tecnico Diferenciado</h5>
     <p class="card-text">Além de nós ensinarmos aos nossos alunos o ensino médio como deveria ser, também temos o ensino tecnico na área de informática e musica, utilizando diversas praticas diferenciadas e divertidas aos nossos alunos para aprenderem da melhor forma possivel. Assim consiguiremos formar adultos melhores para o nosso mundo.</p>
-    
   </div>
 </div>
 </div>
