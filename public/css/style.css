@@ -57,7 +57,7 @@ footer {
   background: #4d4d4d;
   margin-top: 0px;
   color: #ddd;
-  height: 200px;
+  height: 100%; /* Alteração no footer */
 }
 
 
@@ -151,7 +151,7 @@ html, body {
   height:100%;
   position: absolute;
   z-index: -1;   
-}
+}    
 #chat-input {
   background: #f4f7f9;
   width:100%; 
