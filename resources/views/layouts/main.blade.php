@@ -120,7 +120,7 @@
                         <h3>Institucional</h3>
                         <p>Escola Integral Técnica José Leite de Souza oferece cursos técnicos, integrados ao ensino médio, de Manutenção e Suporte em Informática e Instrumento Musical.</p>
                     </div>
-                    <div class="col item social"><a href="#"><i class="zmdi zmdi-facebook"></i></a><a href="#"><i class="zmdi zmdi-twitter"></i></a><a href="#"><i class="zmdi zmdi-youtube"></i></a><a href="#"><i class="zmdi zmdi-linkedin"></i></a></div>
+                    <div class="col item social"><a href="https://www.facebook.com/EscolaEstadualJoseLeiteDeSouza" target="_blank" rel="external"><i class="zmdi zmdi-facebook"></i></a><a href="#"><i class="zmdi zmdi-twitter"></i></a><a href="https://www.youtube.com/channel/UCQLW0K7iUodpcRRP9hdP7Xg" target="_blank" rel="external"><i class="zmdi zmdi-youtube"></i></a><a href="https://www.instagram.com/escolaprotagonista/" target="_blank" rel="external"><i class="zmdi zmdi-instagram"></i></a></div>
                 </div>
                 <p class="copyright">ECIT José Leite de Souza © 2022</p>
             </div>

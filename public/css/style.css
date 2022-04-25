@@ -43,6 +43,11 @@
   float: right;
 }
 
+#cadastrar, #entrar:hover {
+  background-color: #4d4d4d;
+  color: #fff;
+}
+
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -57,7 +62,7 @@ footer {
   background: #4d4d4d;
   margin-top: 0px;
   color: #ddd;
-  height: 200px;
+  height: 100%;
 }
 
 
