@@ -16,9 +16,7 @@
   </head>
 
   <body>
-  
-
-  <header>
+    <header>
             <nav>
                <div class="menu-icon">
                   <i class="fa fa-bars fa-2x"></i>
@@ -31,7 +29,7 @@
                       
                     <li><a href="..." target="_blank">Institucional</a></li>
                     <li><a href="..." target="_blank">Eventos</a></li>
-                    <li><a href="..." target="_blank">Nossa História</a></li>
+                    <li><a href="/nossa-historia" target="_blank">Nossa História</a></li>
                     <li><a href="..." target="_blank">Contato</a></li>
                 
                     @guest
