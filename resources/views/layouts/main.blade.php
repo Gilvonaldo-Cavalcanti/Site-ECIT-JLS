@@ -28,7 +28,7 @@
                </div>
                <div class="menu">
                   <ul>
-                    
+                      
                     <li><a href="..." target="_blank">Institucional</a></li>
                     <li><a href="..." target="_blank">Eventos</a></li>
                     <li><a href="..." target="_blank">Nossa História</a></li>
@@ -57,56 +57,6 @@
             </nav>
          </header>
 
-
-  <!--
-
-        <header>
-            <div class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-                <div class="nav-title">
-                    <img id="logo" src="img/logo-jls.png" alt="logo">
-                </div>
-            </div>
-            <div class="nav-btn">
-                <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-                </label>
-            </div>
-            
-            <div class="nav-links">
-                <a href="..." target="_blank">Institucional</a>
-                <a href="..." target="_blank">Notícias</a>
-                <a href="..." target="_blank">Blog</a>
-                <a href="..." target="_blank">Eventos</a>
-                <a href="..." target="_blank">Nossa História</a>
-                <a href="..." target="_blank">Contato</a>
-                
-                @guest
-                
-                <a href="/register" target="_blank">Cadastrar</a>
-                <a href="/login" target="_blank">Entrar</a>
-
-                @endguest
-                
-                @auth
-                
-                <form action="/logout" method="POST">
-                    @csrf
-                    <a href="/logout"
-                    onclick="event.preventDefault();
-                    this.closest('form').submit();">
-                    Sair</a>
-                </form>
-                @endauth
-                
-            </div>
-            </div>
-        </header>
--->
-
         <script src="/js/app.js"></script>
 
         <script src="{{ asset('site/jquery.js') }}"></script>
@@ -121,9 +71,6 @@
                 @yield('content')
             </div>
         </main>
-        
-        <h3>Teste</h3>
-
         
 <div id="body"> 
   
@@ -142,7 +89,7 @@
       </div>
       <div class="chat-logs">
        
-      </div><!--chat-log -->
+      </div>
     </div>
     <div class="chat-input">      
       <form>
@@ -157,6 +104,14 @@
   <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
 
     <script src="js/app.js"></script>
+
+    <div class="divisoria-colorida-governo">
+      <div class="cor-1"></div>
+      <div class="cor-2"></div>
+      <div class="cor-3"></div>
+      <div class="cor-4"></div>
+      <div class="cor-5"></div>
+    </div>
 
     <div class="footer-dark">
         <footer>

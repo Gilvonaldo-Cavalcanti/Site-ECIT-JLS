@@ -1,16 +1,24 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-jet-welcome />
-            </div>
-        </div>
-    </div>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>@yield('title')</title>
+        <link rel="icon" href="img/logo-jls.png" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="{{ asset('site/style.css') }}" >
+        <!-- CSS local -->
+        <link rel="stylesheet" href="/css/style.css" />
+        <!-- Material Design Iconic Font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    
+  </head>
 
-</x-app-layout>
+  <body>
+
+    
+
+  </body>
+
+</html>

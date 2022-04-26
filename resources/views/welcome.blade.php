@@ -3,121 +3,117 @@
 @section('title', 'ECIT José Leite de Souza')
 
 @section('content')
-<x-guest-layout>
-
-
 
 <img class="imagem-principal" src="img/escolajls.webp" alt="">
 
+<div class="divisoria-colorida-governo">
+    <div class="cor-1"></div>
+    <div class="cor-2"></div>
+    <div class="cor-3"></div>
+    <div class="cor-4"></div>
+    <div class="cor-5"></div>
+</div>
 
+<div class="jumbotron jumbotron-fluid">
+<div class="row text-center mx-auto align-items-center">
+  <div class="p-5 col">
+    <h1>Nossa História</h1>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum".</p>
+    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>    
+    <button type="button" class="btn btn-primary btn-lg">Leia mais</button>
+  </div>
+  <div class="col">
+    <img src="http://photos.wikimapia.org/p/00/02/86/67/99_full.jpg" alt="">
+  </div>  
+</div>
+</div>
 
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="py-12 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Educação</h2>
-      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A better way to send money</p>
-      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <!-- Cards Topicos -->
+  <div id="cards_landscape_wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://unileste.catolica.edu.br/portal/wp-content/uploads/2021/06/jovem-estudante-do-sexo-masculino-de-vista-frontal-em-t-shirt-branca-usando-mascara-preta-e-segurando-arquivos-amarelos-sobre-o-fundo-azul-claro_140725-41136.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Protagonismo Escolar</h6>
+                                    <p>Nossa escola se foca no protagonista escolar de nossos alunos os dando espaço para criar e se reimaginar de formas diferentes e mais atrativas não só para ele como para o mundo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.png" alt="" />
+                                </div>
+                                <div class="text-container">                                    
+                                    <h6>Excelentes Profissonais</h6>
+                                    <p>Gostariamos nesse momento de boas-vindas a vocês caros vistantes exaltar nossos profissionais, que se abilitam a todo momento em ensinar, cuidar e proteger seus alunos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://todospelaeducacao.org.br/wordpress/wp-content/uploads/2020/10/thumb-irs.png" alt="" />
+                                </div>
+
+                                <div class="text-container">
+                                    <h6>Ensino Tecnico Diferenciado</h6>
+                                   <p>Temos o ensino tecnico na área de informática e musica, utilizando diversas praticas diferenciadas e divertidas aos nossos alunos para aprenderem da melhor forma possivel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://classic.exame.com/wp-content/uploads/2021/01/GettyImages-1229154190.jpg?quality=70&strip=info&w=1024" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Sistema de Ensino</h6>
+                                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="mt-10">
-      <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-        <div class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-              <!-- Heroicon name: outline/globe-alt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-              </svg>
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Nossas Conquistas</p>
-          </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-        </div>
-
-        <div class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-              <!-- Heroicon name: outline/scale -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
-              </svg>
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">No hidden fees</p>
-          </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-        </div>
-
-        <div class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-              <!-- Heroicon name: outline/lightning-bolt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Transfers are instant</p>
-          </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-        </div>
-
-        <div class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-              <!-- Heroicon name: outline/annotation -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-              </svg>
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Mobile notifications</p>
-          </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-        </div>
-      </dl>
-    </div>
-  </div>
-
-
-<div class="categorias">
-
-  <h1>Categorias</h1>
-<div class="card-group">
-
-<div class="card bg-dark text-white">
-  <img class="card-img" src="https://unileste.catolica.edu.br/portal/wp-content/uploads/2021/06/jovem-estudante-do-sexo-masculino-de-vista-frontal-em-t-shirt-branca-usando-mascara-preta-e-segurando-arquivos-amarelos-sobre-o-fundo-azul-claro_140725-41136.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Protagonismo Escolar</h5>
-    <p class="card-text">Nossa escola se foca no protagonista escolar de nossos alunos os dando espaço para criar e se reimaginar de formas diferentes e mais atrativas não só para ele como para o mundo.</p>
-    
   </div>
 </div>
 
-<div class="card bg-dark text-white">
-  <img class="card-img" src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.png" alt="Card image">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Excelente Profissonais</h5>
-    <p class="card-text">Gostariamos nesse momento de boas-vindas a vocês caros vistantes exaltar nossos profissionais, que se abilitam a todo momento em ensinar, cuidar e proteger seus alunos de forma exemplar durante o ambinto escolar. Desde a área da limpeza a até mesmo dentro da sala de aula. </p>
-    
-  </div>
-</div>
-
-<div class="card bg-dark text-white">
-  <img class="card-img" src="https://todospelaeducacao.org.br/wordpress/wp-content/uploads/2020/10/thumb-irs.png" alt="Card image">
-  <div class="card-img-overlay">
-
-    <h5 class="card-title">Ensino Tecnico Diferenciado</h5>
-    <p class="card-text">Além de nós ensinarmos aos nossos alunos o ensino médio como deveria ser, também temos o ensino tecnico na área de informática e musica, utilizando diversas praticas diferenciadas e divertidas aos nossos alunos para aprenderem da melhor forma possivel. Assim consiguiremos formar adultos melhores para o nosso mundo.</p>
+<div class="jumbotron jumbotron-fluid">
+<div class="row text-center mx-auto align-items-center">
+  <div class="col">
+    <img src="img/estudantes.png" alt="">
+  </div>    
+  <div class="col">
+    <h1>Escolas Cidadãs Integrais</h1>
+    <p>O Programa de Escola Cidadã integral é um novo modelo de escola pública implantado na Paraíba em 2016 e que tem a proposta de organização e funcionamento em tempo único (integral). É uma política pública e está inserida no Plano Nacional de Educação, de acordo com a meta 6: “Oferecer educação em tempo integral em, no mínimo, 50% das escolas públicas, de forma a atender, pelo menos, 25% dos (as) alunos (as) da educação básica” e também no Plano Estadual de Educação.</p>
+    <p>O programa tem como foco a formação dos jovens por meio de um desenho curricular diferenciado e com metodologias específicas, que apresentam aos estudantes do Ensino Médio possibilidades de se sentirem integrantes do seu projeto de vida. Essas escolas são organizadas com salas temáticas, laboratórios de informática, ciências e outros espaços de vivências, onde os jovens poderão transitar, a partir do seu projeto de vida, em suas competências cognitivas e socioemocionais, de forma a desenvolver as suas potencialidades.</p>
+    <p>Dentro dessa proposta existem também as Escolas Cidadãs Integrais Técnicas. Elas seguem o mesmo modelo que a Escola Cidadã Integral, mas têm como diferencial os cursos técnicos, que visam a formação dos jovens para atuarem no mercado de trabalho. Ambas têm como foco proporcionar aos jovens se reconhecerem como protagonistas em seus locais de atuação.</p>
+    <p>O Programa de Educação Integral tem um currículo diversificado e com organização curricular flexível. O currículo escolar conta com as disciplinas obrigatórias da base, parte diversificada, componentes integradores e também as disciplinas eletivas que são elencadas a partir da escolha dos estudantes de acordo com seu interesse a aptidão.</p>
   </div>
 </div>
 </div>
-</div>
-
-
-<div>
-    <h1><!-- Teste --></h1>
-</div>
-
-</x-guest-layout>
-
 
 @endsection
