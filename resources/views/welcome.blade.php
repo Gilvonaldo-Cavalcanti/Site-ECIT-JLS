@@ -1,9 +1,10 @@
 @extends('layouts.main')
 
-@section('title', 'Site JLS')
+@section('title', 'ECIT José Leite de Souza')
 
 @section('content')
 <x-guest-layout>
+
 
 
 <img class="imagem-principal" src="img/escolajls.webp" alt="">
@@ -75,7 +76,6 @@
       </dl>
     </div>
   </div>
-</div>
 
 
 <div class="categorias">
