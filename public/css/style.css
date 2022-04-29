@@ -281,6 +281,23 @@ main {
   color:inherit;
   text-decoration:none;
   opacity:0.6;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.footer-dark ul a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s; /* Alteração: Adicionando links animados no footer */
+}
+
+.footer-dark ul a:hover::after {
+  width: 100%;
+  transition: width .3s;
 }
 
 .footer-dark ul a:hover {
@@ -391,7 +408,22 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
+  font-weight: lighter;
   font-size: 16px;
+}
+
+nav ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s; /* Alteração: Adicionando link animados */
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+  transition: width .3s;
 }
 
 .menu-icon {
