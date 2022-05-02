@@ -21,6 +21,14 @@ Route::get('nossa-historia', function () {
     return view('nossa-historia');
 });
 
+Route::get('equipe-desenvolvimento', function () {
+    return view('equipe-desenvolvimento');
+});
+
+Route::get('eventos', function () {
+    return view('eventos');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
