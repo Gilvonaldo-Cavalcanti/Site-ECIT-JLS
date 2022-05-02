@@ -583,3 +583,13 @@ nav ul li a:hover::after {
   margin-top: 5%;
   font-size: 20px;
 }
+
+.botm {
+  margin-top: 60px;
+}
+
+.evnts {
+  text-align: center;
+  margin-bottom: 100%;
+
+}

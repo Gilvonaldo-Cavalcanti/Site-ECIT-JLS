@@ -4,6 +4,8 @@
 
 @section('content')
 
-<h1>Página de Eventos</h1>
+<div class="evnts">
+    <h1 class="botm">Nossa Página de Eventos</h1>
+</div>
 
 @endsection
