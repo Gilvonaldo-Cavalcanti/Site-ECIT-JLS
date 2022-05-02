@@ -19,7 +19,8 @@
   <div class="p-5 col">
     <h1>Nossa História</h1>
     <p>O Colégio Estadual de Monteiro, que hoje é a Escola Cidadã Integral Técnica José Leite de Souza, foi construída no ano de 1972 em um terreno doado pelo então Deputado Estadual Euvaldo da Silva Brito, que veio da iniciativa do Prefeito Jorge Rafael de Menezes e teve como diretor fundador o Fundador Dr. Antenor Campos. Atualmente o Colégio Estadual de Monteiro José leite de Souza, tem como responsável por sua gestão a Diretora Vera Paes.</p>
-    <button type="button" class="btn btn-primary btn-lg">Leia mais</button>
+    <a href="/nossa-historia" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Leia mais</a>
+    
   </div>
   <div class="col">
     <img src="http://photos.wikimapia.org/p/00/02/86/67/99_full.jpg" alt="">
