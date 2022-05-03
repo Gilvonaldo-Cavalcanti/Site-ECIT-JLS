@@ -30,7 +30,7 @@
                     <li><a href="..." target="_blank">Institucional</a></li>
                     <li><a href="/eventos " target="_blank">Eventos</a></li>
                     <li><a href="/nossa-historia" target="_blank">Nossa História</a></li>
-                    <li><a href="..." target="_blank">Contato</a></li>
+                    <li><a href="/contato" target="_blank">Contato</a></li>
                 
                     @guest
                 
@@ -126,7 +126,7 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Sobre</h3>
                         <ul>
-                            <li><a href="#">Equipe de Desenvolvimento do Site</a></li>
+                            <li><a href="/equipe-desenvolvimento">Equipe de Desenvolvimento do Site</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
