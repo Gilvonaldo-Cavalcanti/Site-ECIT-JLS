@@ -21,9 +21,13 @@
                <div class="menu-icon">
                   <i class="fa fa-bars fa-2x"></i>
                </div>
-               <div class="logo">
-                    <img id="logo" src="img/logo-jls.png" alt="logo">
-               </div>
+              <div class="logo">
+                <a href="/" >
+                  <img id="logo" src="img/logo-jls.png" alt="logo">
+                </a>
+              </div>
+
+                    
                <div class="menu">
                   <ul>
                       
@@ -40,14 +44,16 @@
                     @endguest
                 
                     @auth
-                
-                    <form action="/logout" method="POST">
+                <li>
+                <form action="/logout" method="POST">
                         @csrf
                         <li><a href="/logout"
                         onclick="event.preventDefault();
                         this.closest('form').submit();">
                         Sair</a></li>
                     </form>
+                </li>
+                    
                     @endauth
 
                   </ul>
@@ -85,16 +91,22 @@
     <div class="chat-box-body">
       <div class="chat-box-overlay">   
       </div>
-      <div class="chat-logs">
-       
+      <ul class="chat-logs">
+      @guest
+        <h1>Faça Login para acessar o chat.</h1>
+      @endguest
+      
+      </ul>
+    </div>
+    @auth
+      <div class="chat-input">      
+        <form>
+          <input type="text" id="chat-input" placeholder="Enviar uma mensagem..."/>
+        <button type="submit" class="chat-submit" id="chat-submit"><i class="zmdi zmdi-mail-send"></i></button>
+        </form>      
       </div>
-    </div>
-    <div class="chat-input">      
-      <form>
-        <input type="text" id="chat-input" placeholder="Enviar uma mensagem..."/>
-      <button type="submit" class="chat-submit" id="chat-submit"><i class="zmdi zmdi-mail-send"></i></button>
-      </form>      
-    </div>
+    @endauth  
+
   </div>
   
 </div>
