@@ -189,6 +189,14 @@ html, body {
   width: 500px;
 }
 
+#localizacao {
+  text-align: center;
+}
+
+#map {
+  height: 400px;
+}
+
 ul {
   list-style-type: none;
 }

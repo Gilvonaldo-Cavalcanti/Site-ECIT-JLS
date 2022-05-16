@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\GoogleController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,6 +30,14 @@ Route::get('equipe-desenvolvimento', function () {
 Route::get('eventos', function () {
     return view('eventos');
 });
+
+
+Route::get('contato', function () {
+    return view('contato');
+});
+
+Route::get('google-autocomplete', [GoogleController::class, 'index']);
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
