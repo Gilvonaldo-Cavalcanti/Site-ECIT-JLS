@@ -19,20 +19,20 @@
 
     <p>O desafio maior desta comunidade escolar é contribuir para um rumo novo no Ensino Médio à luz do Programa da Escola Cidadã Integral, proporcionando a todos condições de progredir e construir um futuro melhor, moderno e ético, desenvolvendo as habilidades e competências dos indivíduos que atendam aos três eixos deste modelo: Formação Acadêmica de Excelência, Formação para a Vida e Formação de Competências para o século XXI.</p>
 
-    <h2>Lorem sed nisi viverra?</h2>
+    <h2>Como é dentro da escola?</h2>
 
     <p> A Escola Cidadã Integral Técnica José Leite de Souza dispõe de um Regimento Interno para atender as peculiaridades de sua estrutura, organização e funcionamento fundamentado na LDB, na Legislação de Ensino, nas Orientações e Diretrizes Educacionais do Programa de Escola Cidadã Integral e da Educação Profissional para o trabalho (EPT), implementadas pela Secretaria de Estado da Educação (SEE/PB), através da Gerência Executiva do Ensino Médio e Educação Profissional (GEEMEP/SEE/PB) que orienta e fiscaliza pedagogicamente e administrativamente as ações executadas nesta Unidade de Ensino, além do respaldo executado pelo Conselho Escolar atuante e Participativo.</p>
 
-    <p>Duis scelerisque massa vel felis cursus lobortis. Maecenas interdum sapien sed sollicitudin eleifend. Fusce elementum augue ut pellentesque pellentesque. Suspendisse tristique tempus lacinia. Mauris ut lacinia nisl, vel volutpat augue. Morbi sit amet ipsum tincidunt, feugiat est in, vulputate sem. Aenean ultrices mi dolor, vel fermentum urna posuere vitae. Nullam et turpis blandit, aliquet eros sit amet, tempus augue. Aenean bibendum risus in quam pulvinar malesuada. Vivamus sed maximus tellus, nec suscipit felis. Etiam fringilla arcu nec egestas tincidunt. Pellentesque quam enim, mattis nec quam id, mollis consequat purus. Pellentesque sodales quis enim in feugiat.</p>
+    <p>Em um segundo momento, analisamos as condições físicas e os recursos humanos, como também as ações necessárias e passíveis de metas e planejamentos. E quais são as qualidades da nossa escola?</p>
 
     <ul>
-        <li>Varius dignissim;</li>
-        <li>Sed tincidunt bibendum;</li>
-        <li>Quisque sit amet odio;</li>
-        <li>Aenean varius sagittis nunc.</li>
+        <li>Protagonismo e harmonia escolar.</li>
+        <li>Excelentes profissionais dentro e fora da sala de aula.</li>
+        <li>Ensino Técnico dinâmico e prático.</li>
+        <li>Sistema organizado de ensino com base em nossos alunos.</li>
     </ul>
 
-    <p>Pellentesque dignissim dui suscipit, varius elit sit amet, cursus est. Suspendisse ultrices aliquam congue. Sed nulla orci, posuere non malesuada a, pharetra ut libero. Curabitur scelerisque, dolor id lobortis mattis, arcu nisl dictum ligula, ut fringilla metus quam nec eros. Nulla et arcu et justo sodales vulputate at sed purus. Donec pharetra arcu laoreet turpis suscipit, eu feugiat mauris ultrices. Donec interdum dolor efficitur felis tristique, eget cursus metus consequat. Praesent egestas malesuada auctor. Morbi est lectus, blandit et purus vel, volutpat varius odio.</p>
+    <p>Referência das informações: https://docero.com.br/doc/8xe0558</p>
 
 </div>
 
