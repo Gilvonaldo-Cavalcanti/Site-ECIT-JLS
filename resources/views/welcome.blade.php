@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="text-container">                                    
                                     <h6>Excelentes Profissonais</h6>
-                                    <p>Gostariamos nesse momento de boas-vindas a vocês caros vistantes exaltar nossos profissionais, que se abilitam a todo momento em ensinar, cuidar e proteger seus alunos.</p>
+                                    <p>Gostariamos nesse momento de boas-vindas a vocês caros vistantes exaltar nossos profissionais, que se habilitam a todo momento em ensinar, cuidar e proteger seus alunos.</p>
                                 </div>
                             </div>
                         </div>
@@ -85,11 +85,11 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="https://classic.exame.com/wp-content/uploads/2021/01/GettyImages-1229154190.jpg?quality=70&strip=info&w=1024" alt="" />
+                                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60.png" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Sistema de Ensino</h6>
-                                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                    <h6>Convivênvia na escola</h6>
+                                   <p>Acima de tudo priorizamos o cuidado com nossos alunos e tentanmos criar um circulo de amizade e respeito entre alunos, preofessores e a gestão de nossos funcionarios.</p>
                                 </div>
                             </div>
                         </div>
