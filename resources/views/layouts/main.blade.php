@@ -21,16 +21,20 @@
                <div class="menu-icon">
                   <i class="fa fa-bars fa-2x"></i>
                </div>
-               <div class="logo">
-                    <img id="logo" src="img/logo-jls.png" alt="logo">
-               </div>
+              <div class="logo">
+                <a href="/" >
+                  <img id="logo" src="img/logo-jls.png" alt="logo">
+                </a>
+              </div>
+
+                    
                <div class="menu">
                   <ul>
                       
                     <li><a href="..." target="_blank">Institucional</a></li>
-                    <li><a href="..." target="_blank">Eventos</a></li>
+                    <li><a href="/eventos " target="_blank">Eventos</a></li>
                     <li><a href="/nossa-historia" target="_blank">Nossa História</a></li>
-                    <li><a href="..." target="_blank">Contato</a></li>
+                    <li><a href="/contato" target="_blank">Contato</a></li>
                 
                     @guest
                 
@@ -40,14 +44,16 @@
                     @endguest
                 
                     @auth
-                
-                    <form action="/logout" method="POST">
+                <li>
+                <form action="/logout" method="POST">
                         @csrf
                         <li><a href="/logout"
                         onclick="event.preventDefault();
                         this.closest('form').submit();">
                         Sair</a></li>
                     </form>
+                </li>
+                    
                     @endauth
 
                   </ul>
@@ -85,16 +91,22 @@
     <div class="chat-box-body">
       <div class="chat-box-overlay">   
       </div>
-      <div class="chat-logs">
-       
+      <ul class="chat-logs">
+      @guest
+        <h1>Faça Login para acessar o chat.</h1>
+      @endguest
+      
+      </ul>
+    </div>
+    @auth
+      <div class="chat-input">      
+        <form>
+          <input type="text" id="chat-input" placeholder="Enviar uma mensagem..."/>
+        <button type="submit" class="chat-submit" id="chat-submit"><i class="zmdi zmdi-mail-send"></i></button>
+        </form>      
       </div>
-    </div>
-    <div class="chat-input">      
-      <form>
-        <input type="text" id="chat-input" placeholder="Enviar uma mensagem..."/>
-      <button type="submit" class="chat-submit" id="chat-submit"><i class="zmdi zmdi-mail-send"></i></button>
-      </form>      
-    </div>
+    @endauth  
+
   </div>
   
 </div>
@@ -126,7 +138,7 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Sobre</h3>
                         <ul>
-                            <li><a href="#">Equipe de Desenvolvimento do Site</a></li>
+                            <li><a href="/equipe-desenvolvimento">Equipe de Desenvolvimento do Site</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
