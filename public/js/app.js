@@ -25,15 +25,15 @@ $(function() {
   
   function generate_message(msg, type) {
     INDEX++;
-    var str="";
-    str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg "+type+"\">";
-    str += "          <span class=\"msg-avatar\">";
-    str += "            <img src=\"https:\/\/image.crisp.im\/avatar\/operator\/196af8cc-f6ad-4ef7-afd1-c45d5231387c\/240\/?1483361727745\">";
-    str += "          <\/span>";
-    str += "          <div class=\"cm-msg-text\">";
+    var str="<br>";
+    str += "<li id='cm-msg-"+INDEX+"' class=\"chat-msg "+type+" row \">";
+    str += "<span class=\"msg-avatar\">";
+    str += "<img src=\"img/icon-protagonista.png\">";
+    str += "<\/span>";
+    str += "<div class=\"cm-msg-text\">";
     str += msg;
-    str += "          <\/div>";
-    str += "        <\/div>";
+    str += "<\/div>";
+    str += "<\/li>";
     $(".chat-logs").append(str);
     $("#cm-msg-"+INDEX).hide().fadeIn(300);
     if(type == 'self'){
@@ -43,36 +43,26 @@ $(function() {
   }  
   
   function generate_button_message(msg, buttons){    
-    /* Buttons should be object array 
-      [
-        {
-          name: 'Existing User',
-          value: 'existing'
-        },
-        {
-          name: 'New User',
-          value: 'new'
-        }
-      ]
-    */
+
     INDEX++;
     var btn_obj = buttons.map(function(button) {
-       return  "              <li class=\"button\"><a href=\"javascript:;\" class=\"btn btn-primary chat-btn\" chat-value=\""+button.value+"\">"+button.name+"<\/a><\/li>";
+       return  "<li class=\"button\"><a href=\"javascript:;\" class=\"btn btn-primary chat-btn\" chat-value=\""+button.value+"\">"+button.name+"<\/a><\/li>";
     }).join('');
-    var str="";
-    str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg user\">";
+    var str="<br>";
+    str += "<hr>";
+    str += "<li id='cm-msg-"+INDEX+"' class=\"chat-msg user row \">";
     str += "          <span class=\"msg-avatar\">";
-    str += "            <img src=\"https:\/\/image.crisp.im\/avatar\/operator\/196af8cc-f6ad-4ef7-afd1-c45d5231387c\/240\/?1483361727745\">";
+    str += "            <img src=\"\img/perfil.png\">";
     str += "          <\/span>";
-    str += "          <div class=\"cm-msg-text\">";
+    str += "          <li class=\"cm-msg-text\">";
     str += msg;
-    str += "          <\/div>";
+    str += "          <\/li>";
     str += "          <div class=\"cm-msg-button\">";
-    str += "            <ul>";   
+    str += "            <div>";   
     str += btn_obj;
-    str += "            <\/ul>";
+    str += "            <\/div>";
     str += "          <\/div>";
-    str += "        <\/div>";
+    str += "        <\/li>";
     $(".chat-logs").append(str);
     $("#cm-msg-"+INDEX).hide().fadeIn(300);   
     $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);

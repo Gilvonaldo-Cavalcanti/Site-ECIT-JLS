@@ -120,6 +120,8 @@ html, body {
   height:auto;
   border:1px solid #ccc;  
   overflow: hidden;
+  display: flex;
+
 }
 .chat-box-body:after {
   content: "";
@@ -178,10 +180,25 @@ html, body {
   width:40px;
   height:40px;
 }
+
 .chat-logs {
   padding:15px; 
   height:370px;
   overflow-y:scroll;
+  display: block;
+  width: 500px;
+}
+
+#localizacao {
+  text-align: center;
+}
+
+#map {
+  height: 400px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .chat-logs::-webkit-scrollbar-track
@@ -208,12 +225,35 @@ html, body {
     }
 }
 
+.chat-msg.self {
+  float: right;
+  text-align: center;
+}
+
+.chat-msg.self .msg-avatar img {
+  border-radius:50%;
+  width:45px;
+  height:45px;
+  float: right;
+}
+
+
+hr {
+  background: #e9e9e9;
+  border: 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 1px;
+  margin: 0;
+  min-height: 1px;
+}
+
 .chat-msg.user > .msg-avatar img {
   width:45px;
   height:45px;
   border-radius:50%;
   float:left;
-  width:15%;
+  
 }
 .chat-msg.self > .msg-avatar img {
   width:45px;
@@ -479,6 +519,7 @@ nav ul li a:hover::after {
   height: 14px;
   position: relative;
   width: 100%;
+  padding: 0;
 }
 
 .cor-1 {
