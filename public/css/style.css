@@ -635,15 +635,14 @@ nav ul li a:hover::after {
 
 }
 
-.figure {
+.img-equipe {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  
 }
 
 .container-equipe {
+  padding: 5em;
   margin-top: 20px;
   text-align: center;
-
+  
 }

@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="text-container">
                                     <h6>Protagonismo Escolar</h6>
-                                    <p>Nossa escola se foca no protagonista escolar de nossos alunos os dando espaço para criar e se reimaginar de formas diferentes e mais atrativas não só para ele como para o mundo.</p>
+                                    <p>Focamos no protagonista escolar dos dando espaço para criar e se reimaginar de formas diferentes e mais atrativas não só para ele como para o mundo.</p>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                                     <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60.png" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Convivênvia na escola</h6>
+                                    <h6>Convivência na escola</h6>
                                    <p>Acima de tudo priorizamos o cuidado com nossos alunos e tentanmos criar um circulo de amizade e respeito entre alunos, preofessores e a gestão de nossos funcionarios.</p>
                                 </div>
                             </div>

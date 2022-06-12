@@ -92,21 +92,18 @@
       <div class="chat-box-overlay">   
       </div>
       <ul class="chat-logs">
-      @guest
-        <h1>Faça Login para acessar o chat.</h1>
-      @endguest
+      
       
       </ul>
     </div>
-    @auth
+    
       <div class="chat-input">      
         <form>
           <input type="text" id="chat-input" placeholder="Enviar uma mensagem..."/>
         <button type="submit" class="chat-submit" id="chat-submit"><i class="zmdi zmdi-mail-send"></i></button>
         </form>      
       </div>
-    @endauth  
-
+    
   </div>
   
 </div>
