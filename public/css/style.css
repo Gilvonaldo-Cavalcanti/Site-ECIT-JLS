@@ -593,3 +593,16 @@ nav ul li a:hover::after {
   margin-bottom: 100%;
 
 }
+
+.figure {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  
+}
+
+.container-equipe {
+  margin-top: 20px;
+  text-align: center;
+
+}
