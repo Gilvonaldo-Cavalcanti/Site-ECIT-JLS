@@ -65,7 +65,7 @@
     </div>
     <div class="col">
         <figure class="figure">
-            <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="...">
+            <img src="img/vinicius.jpeg" class="figure-img img-fluid rounded img-equipe" alt="...">
             <figcaption class="figure-caption align-middle">Função: Desenvolvedor Web</figcaption>
             <figcaption class="figure-caption align-middle">Vinícius Werner, 3º Ano B</figcaption>
         </figure>
@@ -76,9 +76,9 @@
   <div class="row">
     <div class="col">
         <figure class="figure">
-            <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="Gusttavo Ferreira">
-            <figcaption class="figure-caption align-middle">Função: Membro da Equipe</figcaption>
-            <figcaption class="figure-caption align-middle">José Vinícius, 2º Ano D</figcaption>
+            <img src="img/raissa.jpeg" class="figure-img img-fluid rounded img-equipe" alt="Gusttavo Ferreira">
+            <figcaption class="figure-caption align-middle">Função: Desenvolvedor Web</figcaption>
+            <figcaption class="figure-caption align-middle">Raíssa Batista, 1º Ano A</figcaption>
         </figure>
     </div>
     <div class="col">
@@ -91,7 +91,7 @@
     <div class="col">
         <figure class="figure">
             <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="Lerytheranne">
-            <figcaption class="figure-caption align-middle">Função: Desenvolvedor Web</figcaption>
+            <figcaption class="figure-caption align-middle">Função: Membro da Equipe</figcaption>
             <figcaption class="figure-caption align-middle">João Paulo, 3º Ano B</figcaption>
         </figure>
     </div>
@@ -159,9 +159,9 @@
     </div>
     <div class="col">
         <figure class="figure">
-            <img src="img/gilvonaldo.jpg" class="figure-img img-fluid rounded img-equipe" alt="...">
-            <figcaption class="figure-caption align-middle">Função: Professor</figcaption>
-            <figcaption class="figure-caption align-middle">Gilvonaldo Cavalcanti</figcaption>
+            <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="...">
+            <figcaption class="figure-caption align-middle">Função: Membro da Equipe</figcaption>
+            <figcaption class="figure-caption align-middle">José Vinícius, 2º Ano D</figcaption>
         </figure>
     </div>
 </div>
