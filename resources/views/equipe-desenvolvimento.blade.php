@@ -114,16 +114,16 @@
     </div>
     <div class="col">
         <figure class="figure">
-            <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="José Edson">
+            <img src="img/maria-isabel.jpeg" class="figure-img img-fluid rounded img-equipe" alt="José Edson">
             <figcaption class="figure-caption align-middle">Função: Membro da Equipe</figcaption>
             <figcaption class="figure-caption align-middle">Maria Isabel, 1º Ano A</figcaption>
         </figure>
     </div>
     <div class="col">
         <figure class="figure">
-            <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="Lerytheranne">
+            <img src="img/catarina-azevedo.jpeg" class="figure-img img-fluid rounded img-equipe" alt="Lerytheranne">
             <figcaption class="figure-caption align-middle">Função: Membro da Equipe</figcaption>
-            <figcaption class="figure-caption align-middle">Catarina Fernandes, 1º Ano A</figcaption>
+            <figcaption class="figure-caption align-middle">Catarina Azevedo, 1º Ano A</figcaption>
         </figure>
     </div>
     <div class="col">
@@ -145,9 +145,9 @@
     </div>
     <div class="col">
         <figure class="figure">
-            <img src="img/dev.png" class="figure-img img-fluid rounded img-equipe" alt="José Edson">
+            <img src="img/iara-guedes.jpeg" class="figure-img img-fluid rounded img-equipe" alt="José Edson">
             <figcaption class="figure-caption align-middle">Função: Membro da Equipe</figcaption>
-            <figcaption class="figure-caption align-middle">Iara Guedes, 1º Ano A</figcaption>
+            <figcaption class="figure-caption align-middle">Iara Guedes, 2º Ano D</figcaption>
         </figure>
     </div>
     <div class="col">
