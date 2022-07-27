@@ -37,7 +37,8 @@
     },
     "scripts": {
         "preinstall": [
-            "npm config set package-lock false"
+            "npm install",
+            "npm config set package-lock true"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
