@@ -37,6 +37,7 @@
     },
     "scripts": {
         "preinstall": [
+            "composer install",
             "npm install",
             "npm config set package-lock true"
         ],
