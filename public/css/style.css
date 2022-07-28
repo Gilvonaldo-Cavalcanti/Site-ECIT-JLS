@@ -650,3 +650,8 @@ nav ul li a:hover::after {
 .estud {
   width: 100%;
 }
+
+.esc-old {
+  margin-top: 10px;
+  width: 50%;
+}

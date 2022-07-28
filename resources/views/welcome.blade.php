@@ -23,7 +23,7 @@
     
   </div>
   <div class="col">
-    <img src="http://photos.wikimapia.org/p/00/02/86/67/99_full.jpg" alt="">
+    <img class="esc-old" src="http://photos.wikimapia.org/p/00/02/86/67/99_full.jpg" alt="">
   </div>  
 </div>
 </div>
