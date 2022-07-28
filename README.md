@@ -1,9 +1,13 @@
-![Curso de Férias](https://i.ibb.co/ZB9SkZs/icon-protagonista.png)
+<p align="center">
+  <img src="https://github.com/Gilvonaldo-Cavalcanti/Site-ECIT-JLS/blob/master/public/img/ecit-img.png"/>  
+</p>
 
-![Badge](https://img.shields.io/github/issues/Gilvonaldo-Cavalcanti/Site-ECIT-JLS)
-![Badge](https://img.shields.io/github/forks/Gilvonaldo-Cavalcanti/Site-ECIT-JLS)
-![Badge](https://img.shields.io/github/stars/Gilvonaldo-Cavalcanti/Site-ECIT-JLS)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+    <img src="https://img.shields.io/github/issues/Gilvonaldo-Cavalcanti/Site-ECIT-JLS">
+    <img src="https://img.shields.io/github/forks/Gilvonaldo-Cavalcanti/Site-ECIT-JLS">
+    <img src="https://img.shields.io/github/stars/Gilvonaldo-Cavalcanti/Site-ECIT-JLS">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+</p>
 
 # Site-ECIT-JLS
 
