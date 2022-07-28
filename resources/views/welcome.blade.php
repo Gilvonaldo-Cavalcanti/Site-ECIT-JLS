@@ -104,7 +104,7 @@
 <div class="jumbotron jumbotron-fluid">
 <div class="row text-center mx-auto align-items-center">
   <div class="col">
-    <img src="img/estudantes.png" alt="">
+    <img class="estud" src="img/estudantes.png" alt="">
   </div>    
   <div class="col">
     <h1>Escolas Cidadãs Integrais</h1>

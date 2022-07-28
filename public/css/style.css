@@ -646,3 +646,7 @@ nav ul li a:hover::after {
   text-align: center;
   
 }
+
+.estud {
+  width: 100%;
+}
