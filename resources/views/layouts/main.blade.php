@@ -9,7 +9,7 @@
         <!-- Bootstrap -->
         <link rel="stylesheet" href="{{ asset('site/style.css') }}" >
         <!-- CSS local -->
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="{{ asset('/css/style.css') }}" />
         <!-- Material Design Iconic Font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
@@ -109,8 +109,8 @@
 </div>
 
   <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
-
-    <script src="js/app.js"></script>
+  
+    <script src="{{ asset('js/app.js') }}"></script>
 
     <div class="divisoria-colorida-governo">
       <div class="cor-1"></div>

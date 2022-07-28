@@ -9,7 +9,7 @@
         <!-- Bootstrap -->
         <link rel="stylesheet" href="{{ asset('site/style.css') }}" >
         <!-- CSS local -->
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="{{ asset('/css/style.css') }}" />
         <!-- Material Design Iconic Font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
