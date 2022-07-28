@@ -7,9 +7,9 @@
         <title>@yield('title')</title>
         <link rel="icon" href="img/logo-jls.png" />
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="{{ asset('site/style.css') }}" >
+        <link rel="stylesheet" href="/site/style.css" >
         <!-- CSS local -->
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+        <link rel="stylesheet" href="/css/style.css" />
         <!-- Material Design Iconic Font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     
@@ -63,7 +63,7 @@
 
         <script src="/js/app.js"></script>
 
-        <script src="{{ asset('site/jquery.js') }}"></script>
+        <script src="/site/jquery.js"></script>
 
         <main class="container-fluid">
             <div class="row">
