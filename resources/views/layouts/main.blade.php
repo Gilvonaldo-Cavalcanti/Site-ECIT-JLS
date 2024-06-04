@@ -36,25 +36,23 @@
                     <li><a href="/nossa-historia" target="_blank">Nossa História</a></li>
                     <li><a href="/contato" target="_blank">Contato</a></li>
                 
-                    @guest
-                
-                    <li><a href="/register" target="_blank">Cadastrar</a></li>
+                @if (!isset($_SESSION["user_logged_in"]))
+                    <li><a href="/registro" target="_blank">Cadastrar</a></li>
                     <li><a href="/login" target="_blank">Entrar</a></li>
-
-                    @endguest
-                
-                    @auth
-                <li>
-                <form action="/logout" method="POST">
-                        @csrf
-                        <li><a href="/logout"
-                        onclick="event.preventDefault();
-                        this.closest('form').submit();">
-                        Sair</a></li>
-                    </form>
-                </li>
                     
-                    @endauth
+                @else
+
+                    <li>
+                        <form action="/logout" method="POST">
+                            @csrf
+                            <li><a href="/logout"
+                            onclick="event.preventDefault();
+                            this.closest('form').submit();">
+                            Sair</a></li>
+                       </form>
+                    </li>
+
+                @endif
 
                   </ul>
                </div>
