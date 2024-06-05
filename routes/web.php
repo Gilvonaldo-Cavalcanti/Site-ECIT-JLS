@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\Autenticacao;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ use App\Http\Controllers\GoogleController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('nossa-historia', function () {
     return view('nossa-historia');
@@ -31,14 +32,20 @@ Route::get('eventos', function () {
     return view('eventos');
 });
 
-
 Route::get('contato', function () {
     return view('contato');
-});
+})->name('contato');
+
+Route::get('registro', [Autenticacao::class, 'MostrarFormReg'])->name('formreg');
+Route::post('registro', [Autenticacao::class, 'Registro']);
+
+Route::get('login', [Autenticacao::class, 'MostrarFormLogin'])->name('formlogin');
+Route::post('login', [Autenticacao::class, 'Login']);
+
+Route::get('logout', [Autenticacao::class, 'Logout']);
+
+Route::get('dashboard', function(){
+    return view('dashboard');
+})->middleware('VerificarAuth');
 
 Route::get('google-autocomplete', [GoogleController::class, 'index']);
-
-
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
