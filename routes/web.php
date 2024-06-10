@@ -16,6 +16,7 @@ use App\Http\Controllers\Autenticacao;
 |
 */
 
+/* Páginas comúns related: */
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -34,18 +35,28 @@ Route::get('eventos', function () {
 
 Route::get('contato', function () {
     return view('contato');
-})->name('contato');
+});
 
+/* (Temporário?) Status-code related: */
+
+Route::get('unauthorized', function(){
+    return view('unauthorized');
+});
+
+/* Autenticação related: */
 Route::get('registro', [Autenticacao::class, 'MostrarFormReg'])->name('formreg');
 Route::post('registro', [Autenticacao::class, 'Registro']);
 
 Route::get('login', [Autenticacao::class, 'MostrarFormLogin'])->name('formlogin');
 Route::post('login', [Autenticacao::class, 'Login']);
 
-Route::get('logout', [Autenticacao::class, 'Logout']);
+Route::post('logout', [Autenticacao::class, 'Logout']);
 
-Route::get('dashboard', function(){
-    return view('dashboard');
-})->middleware('VerificarAuth');
+
+Route::middleware(['VerificarAuth'])->group(function (){    
+    Route::get('/dashboard', function(){
+        return view('dashboard');
+    })->name('dashboard');
+});
 
 Route::get('google-autocomplete', [GoogleController::class, 'index']);
