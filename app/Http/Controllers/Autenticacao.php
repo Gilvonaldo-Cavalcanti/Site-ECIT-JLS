@@ -6,24 +6,41 @@ use Illuminate\Http\Request;
 
 class Autenticacao extends Controller
 {
-    public function MostrarFormReg(){
-        return view('authentication.registro');
+    public function MostrarFormReg(){ // Colocar como controller de perms root/prof
+        session_start();
+        
+        if(isset($_SESSION['user_is_administrator']) || isset($_SESSION['user_is_staff'])){
+            return view('authentication.registro');
+        }else{
+            header("HTTP/1.1 401 Unauthorized", false, 401);
+            return view('unauthorized');
+        }
     }
 
     public function MostrarFormLogin(){
-        return view('authentication.login');
+        session_start();
+
+        if(!isset($_SESSION['user_logged_in']))
+            return view('authentication.login');
+        else
+            return redirect()->route("dashboard");
     }
     
     public function Registro(Request $request){
-        $dados_user = $request->validate([
-            'nome' => "required|string|min:6|max:255",
-            'email' => "required|email|max:255",
-            'senha' => "required|string|min:6|max:128",
-        ]);
-
-        $sessao = mysqli_connect("localhost", "root", "", "site_jls"); // Todo: Adicionar função externa para ocultar 
+        try{
+            $dados_user = $request->validate([
+                'nome' => "required|string|min:6|max:255",
+                'email' => "required|email|max:255",
+                'senha' => "required|string|min:6|max:128",
+            ]);
+        }catch (\Illuminate\Validation\ValidationException $excep){
+            return redirect('registro')->withErrors($excep->errors());
+        }
+        $userclass = $request['classe'];
+        
+        $sessao = mysqli_connect("localhost", "root", "", "site_jls");
         if(!$sessao){
-             die("Erro tentando se conectar ao bando de dados!: ".mysqli_connect_error());
+            die("Erro tentando se conectar ao bando de dados!: ".mysqli_connect_error());
         }
         mysqli_report(MYSQLI_REPORT_OFF);
 
@@ -39,16 +56,15 @@ class Autenticacao extends Controller
 
         $senha_hash = password_hash($dados_user['senha'], PASSWORD_DEFAULT);
         
-        // Insere os dados repassados pelo user para dentro do banco de dados.
-        $req = $sessao->prepare("INSERT INTO users (nome, email, senha) VALUES (?, ?, ?)");
-        $req->bind_param("sss", $dados_user['nome'], $dados_user['email'], $senha_hash);
+        // Insere os dados repassados e tratados dentro do banco de dados.
+        $req = $sessao->prepare("INSERT INTO users (nome, email, senha, classe_id)  VALUES (?, ?, ?, ?)");
+        $req->bind_param("sssi", $dados_user['nome'], $dados_user['email'], $senha_hash, $userclass);
         $resultado = $req->execute();
 
         if($resultado){
-            session_start();
             $_SESSION['user_logged_in'] = true;
-            
-            return redirect()->route('home');
+
+            return view('authentication.registro')->with('flag', "Usuário criado com sucesso!");
         }else{
             return view('authentication.registro')->with('flag', "Erro inesperado, tente novamente!");
         }
@@ -58,16 +74,22 @@ class Autenticacao extends Controller
     }
 
     public function Login(Request $request){
-        $dados_user = $request->validate([
-             'email' => "required|email|min:6|max:255",
-             'senha' => "required|string|min:6|max:128",
-        ]);
-       
-        $sessao = mysqli_connect("localhost", "root", "", "site_jls"); // Todo: Adicionar função externa para ocultar.
-        if(!$sessao){
-             die("Erro tentando se conectar ao bando de dados!: ".mysqli_connect_error());
+        try{
+            $dados_user = $request->validate([
+                'email' => "required|email|min:6|max:255",
+                 'senha' => "required|string|min:6|max:128",
+            ]);
+        }catch(\Illuminate\Validation\ValidationException $excep){
+              return redirect('login')->withErrors($excep->errors());
         }
+        
+        $sessao = mysqli_connect("localhost", "root", "", "site_jls");
+        if(!$sessao){
+            die("Erro tentando se conectar ao bando de dados!: ".mysqli_connect_error());
+        }
+ 
         mysqli_report(MYSQLI_REPORT_OFF);
+
 
         $dadosfetch = $sessao->prepare("SELECT * FROM users WHERE email = ?");
         $dadosfetch->bind_param("s", $dados_user['email']);
@@ -81,7 +103,15 @@ class Autenticacao extends Controller
                 session_start();
                 $_SESSION['user_logged_in'] = true;
 
-                return redirect()->route('home');
+                if($user['classe_id'] == 3){ // Indentifica user como administrador.
+                    $_SESSION['user_is_staff'] = true;
+                    $_SESSION['user_is_administrator'] = true;
+                }
+                else if($user['classe_id'] == 2){ // Indentifica user como funcionario (professor)
+                    $_SESSION['user_is_staff'] = true;
+                }
+                
+                return redirect()->route('dashboard');
             }else{
                 return view('authentication.login')->with('flag', "Senha incorreta, tente novamente!");
             }
@@ -97,7 +127,7 @@ class Autenticacao extends Controller
         session_start();
 
         if(isset($_SESSION["user_logged_in"])){
-            unset($_SESSION["user_logged_in"]);
+            session_unset();
 
             return redirect()->route('home');
         }

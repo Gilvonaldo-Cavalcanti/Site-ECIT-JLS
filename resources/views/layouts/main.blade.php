@@ -31,17 +31,16 @@
                <div class="menu">
                   <ul>
                       
-                    <li><a href="..." target="_blank">Institucional</a></li>
-                    <li><a href="/eventos " target="_blank">Eventos</a></li>
-                    <li><a href="/nossa-historia" target="_blank">Nossa História</a></li>
-                    <li><a href="/contato" target="_blank">Contato</a></li>
+                    <li><a href="...">Institucional</a></li>
+                    <li><a href="/eventos">Eventos</a></li>
+                    <li><a href="/nossa-historia">Nossa História</a></li>
+                    <li><a href="/contato">Contato</a></li>
                 
-                @if (!isset($_SESSION["user_logged_in"]))
-                    <li><a href="/registro" target="_blank">Cadastrar</a></li>
-                    <li><a href="/login" target="_blank">Entrar</a></li>
-                    
-                @else
-
+                @conv
+                    <li><a href="/login">Entrar</a></li>
+                @endconv
+                
+                @autcd
                     <li>
                         <form action="/logout" method="POST">
                             @csrf
@@ -51,8 +50,7 @@
                             Sair</a></li>
                        </form>
                     </li>
-
-                @endif
+                @endautcd
 
                   </ul>
                </div>
@@ -73,7 +71,8 @@
                 @yield('content')
             </div>
         </main>
-        
+
+@autcd
 <div id="body"> 
   
   <div id="chat-circle" class="btn btn-raised prime zmdi zmdi-comment-outline zmdi-hc-2x">
@@ -103,7 +102,8 @@
       </div>
     
   </div>
-  
+@endautcd
+
 </div>
 
   <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
