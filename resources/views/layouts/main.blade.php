@@ -7,9 +7,13 @@
         <title>@yield('title')</title>
         <link rel="icon" href="img/logo-jls.png" />
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="/site/style.css" >
+        <link rel="stylesheet" href="/site/style.css">
         <!-- CSS local -->
         <link rel="stylesheet" href="/css/style.css" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <!-- Material Design Iconic Font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     

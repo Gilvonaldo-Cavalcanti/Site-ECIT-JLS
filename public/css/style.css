@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'segoe ui';
+  font-family: "Rubik", 'sans-serif';
 }
 
 #cadastrar, #entrar {
@@ -17,6 +17,7 @@
 
 .menu {
   font-weight: bold;
+  line-height: 10px;
   font-size: 15px;
 }
 
@@ -403,8 +404,6 @@ main {
   margin-bottom:0;
 }
 
-
-
 .logo {
   line-height: 60px;
   position: fixed;
@@ -509,8 +508,72 @@ nav ul li a:hover::after {
   .menu-icon {
         display: block;
   }
-
 }
+
+.nav-link {
+    font-size: 15px;
+    color: white;
+}
+
+/* Dashboard */
+
+/* Side-bar related */
+
+.main-content {
+    display: flex;
+    margin: 5% 0 0 0;
+    padding: 0;
+}
+
+.side-bar {
+    background: #4d4d4d; 
+    color: white;
+    padding: 0;
+    max-width: 200px;
+    height: 100vh;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.dash-options hr{
+    border-top: 2px solid white;
+}
+
+.user-infos {
+    display: flex;
+    padding-top: 5%;
+    margin: 0;
+    color: white;
+}
+
+.user-infos img{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.personal{
+    padding-bottom: 15px;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.personal h6{
+    font-size: 15px;
+    margin: 0;
+}
+.personal p {
+    font-size: 11px;
+    margin: 0;
+}
+
+/* Tab content related */
+
+.tab-content {
+    padding-left: 5%;
+    margin: 0;
+}
+
+/* ------------- */
 
 .divisoria-colorida-governo {
   margin: 0;
