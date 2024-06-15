@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\Autenticacao;
+use App\Http\Controllers\Staffs;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,10 +47,7 @@ Route::get('unauthorized', function(){
 
 
 /* Autenticação related: */
-Route::get('registro', [Autenticacao::class, 'MostrarFormReg'])->name('formreg');
-Route::post('registro', [Autenticacao::class, 'Registro']);
-
-Route::get('login', [Autenticacao::class, 'MostrarFormLogin'])->name('formlogin');
+Route::get('login', [Autenticacao::class, 'MostrarFormLogin'])->name('login');
 Route::post('login', [Autenticacao::class, 'Login']);
 
 Route::post('logout', [Autenticacao::class, 'Logout']);
@@ -59,6 +57,9 @@ Route::middleware(['VerificarAuth'])->group(function (){
     Route::get('/dashboard', function(){
         return view('dashboard');
     })->name('dashboard');
+
+    Route::post('dashboard/registrar', [Staffs::class, 'Registro']); // dashboard trata diretammente do registro
+    Route::post('dashboard/deletar', [Staffs::class, 'DeletarUser']);
 });
 
 
