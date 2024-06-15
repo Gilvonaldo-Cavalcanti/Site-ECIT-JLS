@@ -107,4 +107,15 @@ $(window).on("scroll", function() {
   else {
         $('nav').removeClass('black');
   }
-})
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var hash = window.location.hash;
+    if (hash) {
+        var tab = document.querySelector('a[href="' + hash + '"]');
+        if (tab) {
+            var tabInstance = new bootstrap.Tab(tab);
+            tabInstance.show();
+        }
+    }
+});

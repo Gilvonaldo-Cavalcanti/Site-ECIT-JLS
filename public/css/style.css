@@ -408,6 +408,7 @@ main {
   line-height: 60px;
   position: fixed;
   float: left;
+  height: 60px;
   margin: 16px 46px;
   color: #fff;
   font-weight: bold;
@@ -423,7 +424,6 @@ nav {
 }
 
 nav ul {
-  line-height: 60px;
   list-style: none;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
@@ -478,36 +478,38 @@ nav ul li a:hover::after {
 }
 
 @media(max-width: 786px) {
-
-  .logo {
-        position: fixed;
-        top: 0;
+    .logo {
         margin-top: 16px;
-  }
+        height: 60px;
+    }
 
-  nav ul {
-        max-height: 0px;
+    nav ul {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s;
+        width: 100%;
         background: #000;
-  }
+        flex-direction: column;
+    }
 
-  nav.black ul {
+    nav.black ul {
         background: #4d4d4d;
-  }
+    }
 
-  .showing {
+    .showing {
         max-height: 34em;
-  }
+    }
 
-  nav ul li {
+    nav ul li {
         box-sizing: border-box;
         width: 100%;
         padding: 24px;
         text-align: center;
-  }
+    }
 
-  .menu-icon {
+    .menu-icon {
         display: block;
-  }
+    }
 }
 
 .nav-link {
@@ -515,15 +517,38 @@ nav ul li a:hover::after {
     color: white;
 }
 
-/* Dashboard */
+/* ----------------Login page--------------------- */
 
-/* Side-bar related */
+.submit-login {
+    padding-top: 10px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    max-width: 400px;
+    max-height: 350px;
+    margin: 10% 0 10% 37%;
+}
+
+.submit-login p{
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------- Dashboard --------------------*/
 
 .main-content {
     display: flex;
     margin: 5% 0 0 0;
     padding: 0;
 }
+
+.main-content p{
+    padding: 0;
+    margin: 0;
+}
+
+/* Side-bar related */
 
 .side-bar {
     background: #4d4d4d; 
@@ -552,6 +577,7 @@ nav ul li a:hover::after {
 }
 
 .personal{
+    padding-top: 5px;
     padding-bottom: 15px;
     padding-left: 5%;
     margin: 0;
@@ -568,9 +594,82 @@ nav ul li a:hover::after {
 
 /* Tab content related */
 
+.titulos-tabelas{
+    margin-bottom: 20px;
+}
+
+.fields-tabelas{
+    padding-top: 10px;
+}
+
 .tab-content {
     padding-left: 5%;
     margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+    box-sizing: border-box;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 10px;
+    width: 90%;
+    height: 40px;
+}
+
+input[type="radio"] {
+    margin: 5px;
+}
+
+button {
+    background: #04AA6D;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px 0 20px 0;
+    border: none;
+    width: 90%;
+    height: 40px;
+}
+
+.aviso_erro {
+    margin-bottom: 5px;
+}
+
+/* Criar user content related */
+
+.criar-users-func{
+    border-radius: 10px 0 10px 0px;
+    background: white;
+    text-align: center;
+    width: 500px;
+}
+
+/* Deletar user content related */
+
+.deletar-users-func {
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    width: 400px;
+    text-align: center;
+}
+
+.deletar-users-func h2{
+    padding-top: 65px;
+}
+
+.deletar-users-func button{
+    background: #fa1644;
+    margin: 0;
+    margin-top: 10px;
 }
 
 /* ------------- */
