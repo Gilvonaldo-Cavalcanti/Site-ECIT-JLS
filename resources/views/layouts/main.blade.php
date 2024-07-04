@@ -36,7 +36,7 @@
                <div class="menu">
                   <ul>
                       
-                    <li><a href="...">Institucional</a></li>
+                    <li><a href="/institucional">Institucional</a></li>
                     <li><a href="/eventos">Eventos</a></li>
                     <li><a href="/nossa-historia">Nossa História</a></li>
                     <li><a href="/contato">Contato</a></li>
