@@ -595,6 +595,8 @@ nav ul li a:hover::after {
 /* Tab content related */
 
 .titulos-tabelas{
+    margin-top: 15px;
+    margin-left: 42%;
     margin-bottom: 20px;
 }
 
@@ -609,13 +611,14 @@ nav ul li a:hover::after {
 
 .flex-container {
     display: flex;
+    padding-left: 175px;
     grid-template-columns: 1fr 1fr;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 input[type="password"],
 input[type="email"],
-input[type="text"] {
+input[type="text"],
+input[type="number"]{
     box-sizing: border-box;
     border: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
@@ -644,10 +647,12 @@ button {
     margin-bottom: 5px;
 }
 
+/*-----Gerenciar Users-----------
+ *
 /* Criar user content related */
 
 .criar-users-func{
-    border-radius: 10px 0 10px 0px;
+    border-radius: 10px 0px 0px 10px;
     background: white;
     text-align: center;
     width: 500px;
@@ -671,6 +676,91 @@ button {
     margin: 0;
     margin-top: 10px;
 }
+
+/* ------- Avisos na Dash ---------- */
+
+.avisos {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.aviso-imagem img{
+    border-radius: 10px;
+    padding-bottom: 5%;
+    max-height: 250px;
+    width: 100%;
+}
+
+.aviso-content {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.aviso-titulo {
+    margin: 0;
+    padding: 0;
+}
+
+.aviso-texto {
+    margin-bottom: 5%;
+}
+
+/*---Gerenciar Posts----
+* 
+* Retira os botões de up e down no input number */
+
+.gerenciar-posts{
+    margin-left: 83px;
+    margin-bottom: 25px;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+/* Criar posts content related */
+
+ .criar-posts{
+    border-radius: 10px 0px 0px 10px;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+ }
+
+ .criar-posts button{
+    background: #fcba03;
+ }
+
+
+ .deletar-posts {
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    width: 400px;
+    text-align: center;
+}
+
+.deletar-posts h2{
+    padding-top: 65px;
+}
+
+.deletar-posts button{
+    background: #fa1644;
+    margin: 0;
+    margin-top: 10px;
+}
+
 
 /* ------------- */
 
@@ -787,15 +877,62 @@ button {
   font-size: 20px;
 }
 
+/* Eventos related: */
+
+
 .botm {
-  margin-top: 60px;
+    background: #293240;
+    border-radius: 100px 100px 100px 100px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5%;
 }
 
-.evnts {
-  text-align: center;
-  margin-bottom: 100%;
-
+.eventos {
+    margin-bottom: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+.tabs-eventos {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-eventos hr{
+    background: black;
+    border-top: 4px solid black;
+}
+
+.tab-individual {
+    margin: 10px;
+    display: flex;
+}
+
+.titulo-evento {
+    color: #1d85db;
+}
+
+.evento-dados {
+    padding-left: 10px;
+}
+
+.evento-content {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 50%;
+}
+
+.cont-titulo {
+    color: #1d85db;
+}
+
+
+.evento-id { margin: 0; padding: 0;}
+.evento-time { margin: 0; padding: 0;
+
+/* ---------------- */
 
 .img-equipe {
   width: 200px;

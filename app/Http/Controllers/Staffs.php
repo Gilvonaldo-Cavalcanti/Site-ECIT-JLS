@@ -72,7 +72,7 @@ class Staffs extends Controller
          $resultado = $req->get_result();
 
          if($resultado->num_rows > 0){
-            $req = $sessao->prepare('DELETE FROM users WHERE nome = ?');
+            $req = $sessao->prepare('DELETE FROM users WHERE nome = ?'); //  Adicionar questao de perms de deletar classe independente de user.
             $req->bind_param('s', $nomeref);
             $resultado = $req->execute();
 
