@@ -5,10 +5,7 @@ namespace PhpParser\Node;
 use PhpParser\NodeAbstract;
 
 class Name extends NodeAbstract {
-    /**
-     * @psalm-var non-empty-string
-     * @var string Name as string
-     */
+    /** @var string Name as string */
     public string $name;
 
     /** @var array<string, bool> */
@@ -36,7 +33,6 @@ class Name extends NodeAbstract {
     /**
      * Get parts of name (split by the namespace separator).
      *
-     * @psalm-return non-empty-list<string>
      * @return string[] Parts of name
      */
     public function getParts(): array {
@@ -107,7 +103,6 @@ class Name extends NodeAbstract {
      * Returns a string representation of the name itself, without taking the name type into
      * account (e.g., not including a leading backslash for fully qualified names).
      *
-     * @psalm-return non-empty-string
      * @return string String representation
      */
     public function toString(): string {
@@ -118,7 +113,6 @@ class Name extends NodeAbstract {
      * Returns a string representation of the name as it would occur in code (e.g., including
      * leading backslash for fully qualified names.
      *
-     * @psalm-return non-empty-string
      * @return string String representation
      */
     public function toCodeString(): string {
@@ -129,7 +123,6 @@ class Name extends NodeAbstract {
      * Returns lowercased string representation of the name, without taking the name type into
      * account (e.g., no leading backslash for fully qualified names).
      *
-     * @psalm-return non-empty-string
      * @return string Lowercased string representation
      */
     public function toLowerString(): string {
@@ -149,7 +142,6 @@ class Name extends NodeAbstract {
      * Returns a string representation of the name by imploding the namespace parts with the
      * namespace separator.
      *
-     * @psalm-return non-empty-string
      * @return string String representation
      */
     public function __toString(): string {
@@ -245,7 +237,6 @@ class Name extends NodeAbstract {
      *
      * @param string|string[]|self $name Name to prepare
      *
-     * @psalm-return non-empty-string
      * @return string Prepared name
      */
     private static function prepareName($name): string {

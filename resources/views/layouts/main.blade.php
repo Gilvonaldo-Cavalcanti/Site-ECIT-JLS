@@ -28,7 +28,7 @@
                </div>
               <div class="logo">
                 <a href="/" >
-                  <img id="logo" src="img/logo-jls.png" alt="logo">
+                  <img id="logo" src="/img/logo-jls.png" alt="logo">
                 </a>
               </div>
 
@@ -36,7 +36,7 @@
                <div class="menu">
                   <ul>
                       
-                    <li><a href="/institucional">Institucional</a></li>
+                    <li><a href="...">Institucional</a></li>
                     <li><a href="/eventos">Eventos</a></li>
                     <li><a href="/nossa-historia">Nossa História</a></li>
                     <li><a href="/contato">Contato</a></li>
@@ -46,6 +46,7 @@
                 @endconv
                 
                 @autcd
+                    <li><a href="/dashboard">Dashboard</a></li>
                     <li>
                         <form action="/logout" method="POST">
                             @csrf

@@ -46,7 +46,6 @@ class Comment implements \JsonSerializable {
      * Gets the line number the comment started on.
      *
      * @return int Line number (or -1 if not available)
-     * @phpstan-return -1|positive-int
      */
     public function getStartLine(): int {
         return $this->startLine;
@@ -74,7 +73,6 @@ class Comment implements \JsonSerializable {
      * Gets the line number the comment ends on.
      *
      * @return int Line number (or -1 if not available)
-     * @phpstan-return -1|positive-int
      */
     public function getEndLine(): int {
         return $this->endLine;

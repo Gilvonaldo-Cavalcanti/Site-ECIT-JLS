@@ -1,0 +1,573 @@
+[33mcommit 7821100413f34b584c821e145ca0f28dd459213f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mautenticacao[m[33m)[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Wed Jul 3 04:31:06 2024 -0300
+
+    Algumas coisas pra dashboard e pra aba de eventos
+
+[33mcommit c233c75720ef779f1396f9916d61f59cc4050d33[m[33m ([m[1;31morigin/autenticacao[m[33m)[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Sat Jun 15 14:22:15 2024 -0300
+
+    mais coisa
+
+[33mcommit c3bd697d47c8e037262e2484ae78da019c463199[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Sat Jun 15 14:22:07 2024 -0300
+
+    batata
+
+[33mcommit 243355f5130f631cbbf721e68d28fe6116541b66[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Sat Jun 15 13:47:51 2024 -0300
+
+    mais coisa pra dashboard e login
+
+[33mcommit 84120d80dabdcc19967ad131f636d88cae0f149e[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Sat Jun 15 13:47:51 2024 -0300
+
+    mais coisa pra dashboard e login
+
+[33mcommit d3a8a61183a84f083329478669037ab10879e9a5[m[33m ([m[1;31mupstream/master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Wed Jun 12 14:39:29 2024 -0300
+
+    melhoramento da dashboard
+
+[33mcommit bb89346f73f7b32671a5ba70d1ac31b975dbfdde[m
+Merge: 78438a5 db408aa
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Jun 10 15:50:02 2024 -0300
+
+    Merge pull request #20 from zintopia/autenticacao
+    
+    alterações
+
+[33mcommit db408aa6d163ca094a12ea3bf3c9bc7fe158eb0e[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Mon Jun 10 13:00:24 2024 -0300
+
+    alterações
+
+[33mcommit 78438a55c9a98f456112a946546583073feb54dd[m
+Merge: 8b774ac 6a41202
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Wed Jun 5 08:30:26 2024 -0300
+
+    Merge pull request #18 from zintopia/autenticacao
+    
+    autenticação e banco de dados - mudanças
+
+[33mcommit 6a4120279bff68107e4cdbb84df191fed94d7994[m
+Author: zintopia <licoptv.oficial@gmail.com>
+Date:   Tue Jun 4 18:59:43 2024 -0300
+
+    alterações na arquitetura do banco de dados, criados controller e middleware de autenticação, forms registro e login.    obs: problemas no logout e ainda tem algumas coisas pra excluir da api de auth.
+
+[33mcommit 8b774acbce81ca57fe0dc9bda8dee4e9a89e8b56[m
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Wed May 15 15:08:35 2024 -0300
+
+    Create laravel.yml
+
+[33mcommit a3a69b8da2e54f74ea943a9958d486b0b8a58875[m
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Thu Jul 28 11:16:35 2022 -0300
+
+    Update README.md
+
+[33mcommit 22a315f176f2bf8a6ef11d06735873c037ab138f[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 11:10:01 2022 -0300
+
+    Correção procfile
+
+[33mcommit 8c2fa013a85ba73930e6cd428991a581fb9a8445[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 10:35:49 2022 -0300
+
+    Correção procfile
+
+[33mcommit 584e1cda91f4a4602cf5c97de5ded5c19faad1d4[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 10:30:42 2022 -0300
+
+    Correção procfile
+
+[33mcommit ce3d9004a4612cc90a0f5c96eb4573f5d3a2a041[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 10:10:52 2022 -0300
+
+    Correção procfile
+
+[33mcommit a07cd44e1a27a754b5df96fd31c46f62537ba3e5[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 10:06:31 2022 -0300
+
+    Correção procfile
+
+[33mcommit 45304df44b402865fcf28a2a25578ab339a69f42[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 10:03:32 2022 -0300
+
+    Correção procfile
+
+[33mcommit 5889ce1311448a506613239055a89f2dec9b5396[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Thu Jul 28 10:00:28 2022 -0300
+
+    Correção procfile
+
+[33mcommit b21bba5980323042f6ceeb498dac67970160388a[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 22:24:13 2022 -0300
+
+    Correção procfile
+
+[33mcommit ce2900769189114ac064a56dbf9027723e09bcb9[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 22:21:45 2022 -0300
+
+    Correção procfile
+
+[33mcommit 056a87b6208d0389c1fb6e79d7e41ebcec46bfec[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 22:12:11 2022 -0300
+
+    Correção procfile
+
+[33mcommit 88951189107aaa4218be767c79b0cbec81a2b2da[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 22:06:46 2022 -0300
+
+    Correção procfile
+
+[33mcommit a95e76819cde87d1f981b4a77fc8dd7d9cc9e021[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 20:29:15 2022 -0300
+
+    Correção procfile
+
+[33mcommit fea7b5e5ad7af38cbb398ed021ffdd876ac3d6d1[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 11:22:02 2022 -0300
+
+    Correção procfile
+
+[33mcommit b3916062eac1ee4b39fd0a88846da20966e7c3fb[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 11:15:45 2022 -0300
+
+    Correção procfile
+
+[33mcommit 0709dd71d99141979e056008a760e472ed5b0fc6[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 11:12:40 2022 -0300
+
+    Correção procfile
+
+[33mcommit e10f991cc72c53bd5ff8bed1fe1e98ae647008d5[m
+Author: Gilvonaldo Cavalcanti <gilvonaldocavalcanti@gmail.com>
+Date:   Tue Jul 26 10:43:42 2022 -0300
+
+    Adicionando o Profile
+
+[33mcommit 6a14325b5ffabc516c84100ff72a68d23fb84dbf[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Mon Jun 13 10:44:58 2022 -0300
+
+    Adicionando mais fotos
+
+[33mcommit e0aa012ae70cf3bd56fc8a755a47f978b38777bc[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Sun Jun 12 23:18:29 2022 -0300
+
+    Adicionando novas fotos
+
+[33mcommit e22aa972083173bd9fab92c422ccf2d1051b3468[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Sun Jun 12 19:19:48 2022 -0300
+
+    Ajustes para a apresentação da Eletiva
+
+[33mcommit 0e04cc9f6ba798637cd95850e4d60b694ef029af[m
+Merge: 319d291 ad3ca70
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Sun Jun 12 12:33:03 2022 -0300
+
+    Merge branch 'master' of https://github.com/Gilvonaldo-Cavalcanti/Site-ECIT-JLS
+
+[33mcommit 319d291873b2bc0012aec73e2fe61a16211412cc[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Sun Jun 12 12:32:54 2022 -0300
+
+    Atualização da página de Desenvolvedores
+
+[33mcommit ad3ca70dfd0ff491cdeed869072828ad9c5cdb8b[m
+Merge: 3ea3277 34800ba
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Fri Jun 10 18:43:59 2022 -0300
+
+    Merge pull request #17 from kelviny01/tela-login
+    
+    Adicionando uma nova tela de login.
+
+[33mcommit 34800bafef4d2c8b2cb224504ff80b0c35f15d92[m
+Author: Kelviny-Mickael <kelviny.mk27@gmail.com>
+Date:   Wed Jun 8 21:39:57 2022 -0300
+
+    Adicionando uma nova tela de login.
+
+[33mcommit 3ea3277f88eae45591f166585e9b954ec33ee903[m
+Merge: 6ffe4ad 481f3f8
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Jun 6 18:23:46 2022 -0300
+
+    Merge pull request #16 from Luckkkie/master
+    
+    Alteração
+
+[33mcommit 481f3f8d356ba3db9520fff9223977a4ff354a26[m
+Merge: 95c74b9 6ffe4ad
+Author: Luckkkie <102521942+Luckkkie@users.noreply.github.com>
+Date:   Mon Jun 6 11:55:38 2022 -0300
+
+    Merge branch 'Gilvonaldo-Cavalcanti:master' into master
+
+[33mcommit 95c74b930efe299aa99906f6b131be4a3fd72428[m
+Merge: 164d347 f295c90
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Mon Jun 6 11:55:38 2022 -0300
+
+    Merge branch 'master' of https://github.com/Luckkkie/Site-ECIT-JLS
+
+[33mcommit 164d3478d0fb66bdb06d129bdaa3083043f03fd7[m
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Mon Jun 6 11:54:49 2022 -0300
+
+    Alteração no card final
+
+[33mcommit 6ffe4add752c6eb1a23a333706d5e090370b5417[m
+Merge: f295c90 721d87e
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon May 23 11:45:56 2022 -0300
+
+    Merge pull request #15 from Luckkkie/Alteracao_Nossa_Historia
+    
+    3
+
+[33mcommit 721d87e13aaebc92691136c7c39864918ed95b92[m
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Mon May 23 11:35:51 2022 -0300
+
+    Finalização na area da historia escolar do site
+
+[33mcommit f295c90c89e99eea677dc4c74090f7b8a279635a[m
+Merge: 76409b9 5e7df64
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon May 16 10:41:16 2022 -0300
+
+    Merge pull request #14 from Gilvonaldo-Cavalcanti/contato
+    
+    Criação da página de contato
+
+[33mcommit 5e7df642dc43631f03fe35b3c825cd228f4fd1da[m[33m ([m[1;31mupstream/contato[m[33m)[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Mon May 16 10:40:33 2022 -0300
+
+    Criação da página de contato
+
+[33mcommit 76409b95ccf18681deef8916aaa1f06e68907838[m
+Merge: 88e327b 1f60553
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon May 16 08:52:43 2022 -0300
+
+    Merge pull request #13 from Gilvonaldo-Cavalcanti/chat
+    
+    Atualização no sistema de chat
+
+[33mcommit 1f60553de27d6140e8a3708a09c568a2040746a4[m[33m ([m[1;31mupstream/chat[m[33m)[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Mon May 16 08:26:45 2022 -0300
+
+    Atualização no sistema de chat
+
+[33mcommit 88e327b5c5d93d0d1eba4c6d6295e8f29fc41f45[m
+Merge: 2951ac2 c0b957e
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Tue May 3 07:53:24 2022 -0300
+
+    Merge pull request #12 from kelviny01/adicionando-pastas
+    
+    Alteração: add pasta equipe... No main.
+
+[33mcommit c0b957e1bd2f8d6f3eb3bb8ece74d143034cf96d[m
+Author: Kelviny-Mickael <kelviny.mk27@gmail.com>
+Date:   Mon May 2 21:04:17 2022 -0300
+
+    Alteração: add pasta equipe... No main.
+
+[33mcommit 2951ac2a596da863de8a40d7cc5b85316960ab9b[m
+Merge: eb9f633 30ba09c
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon May 2 11:50:41 2022 -0300
+
+    Merge pull request #10 from kelviny01/novas-pastas
+    
+    Fiz uma alteração na página: Nossa história.
+
+[33mcommit eb9f6331330fe40236b4ace9904c6a21dcd5b77c[m
+Merge: fbfd138 f8f8a83
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon May 2 11:50:27 2022 -0300
+
+    Merge pull request #11 from Luckkkie/Alteracao_Nossa_Historia
+    
+    Modificações
+
+[33mcommit f8f8a831a2ff217a9b636378b4718e871c703915[m
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Mon May 2 11:44:18 2022 -0300
+
+    Criacao de nova branch e modificacoes feitas na parte da historia escolar
+
+[33mcommit 30ba09cab4b9f0552fa7585e9640a937c67dbffe[m
+Author: kelviny01 <kelviny.mk27@gmail.com>
+Date:   Mon May 2 11:41:04 2022 -0300
+
+    Fiz uma alteração na página: Nossa história.
+
+[33mcommit fbfd138b6bc07a270e502d83b849c1124cffbbd8[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Mon May 2 11:18:08 2022 -0300
+
+    Criação das páginas Eventos e Equipe de Desenvolvimento
+
+[33mcommit 4922ea1f2cbda6fc5abced22f627530098c13db2[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Mon May 2 10:55:11 2022 -0300
+
+    Alterações Simples
+
+[33mcommit 81a36774103f6692630c9e8d8aace171e161ff8d[m
+Merge: f62947c 528be84
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Fri Apr 29 08:37:40 2022 -0300
+
+    Merge branch 'master' of https://github.com/Gilvonaldo-Cavalcanti/Site-ECIT-JLS
+
+[33mcommit 528be84d86264a5bdd9591b59f53e682bf5840c2[m
+Merge: 33f3226 370b549
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Fri Apr 29 07:52:26 2022 -0300
+
+    Merge pull request #9 from kelviny01/link-hover-animation
+    
+    link-hover-animation
+
+[33mcommit 370b549b171895e2efd58bd8f4c842206c47ad16[m
+Author: Kelviny-Mickael <kelviny.mk27@gmail.com>
+Date:   Thu Apr 28 21:23:10 2022 -0300
+
+    link-hover-animation
+
+[33mcommit f62947c64911f13c05a8b8c9f88136bcd3034d23[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 26 14:51:45 2022 -0300
+
+    Esboço da view Nossa Historia
+
+[33mcommit 33f32267bf76cb32980b491cf8a87ca8496dee80[m
+Merge: e8bfd26 904c6be
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Tue Apr 26 14:07:56 2022 -0300
+
+    Merge pull request #8 from Gilvonaldo-Cavalcanti/nossa-historia
+    
+    Adiçao da view Nossa Historia
+
+[33mcommit 904c6be7c31bea71da9393c3f42e9dcda7aacf29[m[33m ([m[1;31mupstream/nossa-historia[m[33m)[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 26 14:04:49 2022 -0300
+
+    Adiçao da view Nossa Historia
+
+[33mcommit e8bfd26887da30515eedc28ee6ec905852b8153d[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 26 13:54:08 2022 -0300
+
+    Adiçao do z-index no chat
+
+[33mcommit 0c60772cb70fbda9209f4ec0833c9ab88b3fcad7[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 26 11:18:12 2022 -0300
+
+    Melhorias na pagina principal
+
+[33mcommit 3b65e53a989620a3a0f5f3eaf022359b70725587[m
+Merge: 3b13fad 8e5788f
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 26 08:01:10 2022 -0300
+
+    Merge das alteraçoes no branch view_welcome
+
+[33mcommit 3b13fad684f054a145e18bce82f7cd9d2ca08991[m
+Merge: 7155d80 2d69a83
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Apr 25 12:36:48 2022 -0300
+
+    Merge pull request #6 from Luckkkie/card_welcome
+    
+    Card welcome
+
+[33mcommit 2d69a83d990e81cc3d5636c43ae83324c8826cf1[m
+Merge: 0c679f5 7155d80
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Apr 25 12:36:32 2022 -0300
+
+    Merge branch 'master' into card_welcome
+
+[33mcommit 7155d80af3880cfe9037863aa31f05e0b27c9085[m
+Merge: b0c1658 030978a
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Apr 25 11:40:09 2022 -0300
+
+    Merge pull request #7 from kelviny01/bordas
+    
+    Alteração: Adicionando bordas na parte do header
+
+[33mcommit 030978a98512f97b725fb3ea4934f7b9646eb42b[m
+Author: kelviny01 <kelviny.mk27@gmail.com>
+Date:   Mon Apr 25 11:37:45 2022 -0300
+
+    Alteração: Adicionando bordas na parte do header
+
+[33mcommit 0c679f56097f288877537cba81cc02ebefe0a615[m
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Mon Apr 25 11:23:02 2022 -0300
+
+    Alteração nos icones na parte do foot, e colocando endereços da escola neles
+
+[33mcommit b0c1658a3e1cbec51d94c90534c98621791e79ea[m
+Merge: 77b182a 950b15f
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Apr 25 11:21:41 2022 -0300
+
+    Merge pull request #5 from kelviny01/header
+    
+    Alterações no footer
+
+[33mcommit 950b15f02004edd2b1ae0b20938f3a91bafb9041[m
+Author: kelviny01 <kelviny.mk27@gmail.com>
+Date:   Mon Apr 25 11:20:03 2022 -0300
+
+    Alterações no footer
+
+[33mcommit 8e5788fac07938f563ac085b0294c6eb864f2932[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 19 08:55:51 2022 -0300
+
+    Pequenos ajustes
+
+[33mcommit e5e5643112f4b8200056ddf2b1f58f5aee4550b1[m
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Mon Apr 18 11:59:30 2022 -0300
+
+    A modificação que fiz hoje foi a alteção semi final nos cards da parte de categoria
+
+[33mcommit 77b182a61d0cee0af6e7e2feba0078652d2595bf[m
+Merge: aae20b1 ecbe3a4
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Mon Apr 18 11:09:34 2022 -0300
+
+    Merge pull request #4 from ViniciusWerner/alteracao1vin
+    
+    Pequena modificação
+
+[33mcommit ecbe3a49a512854cf8462d524ab32cd15ebf3e0f[m
+Author: ViniciusWerner <viniciuswerner1@gmail.com>
+Date:   Mon Apr 18 11:26:30 2022 -0300
+
+    Pequena modificação
+
+[33mcommit aae20b18360af2a3c58c872997aa53eed6eb4e84[m
+Merge: 5e4268c 426044e
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Tue Apr 12 09:45:05 2022 -0300
+
+    Merge pull request #3 from Luckkkie/card_welcome
+    
+    Alteração no primeiro card
+
+[33mcommit 426044ea4b7e906a111b94291c0259568878650b[m
+Author: Luckkkie <cruz.lk272@gmail.com>
+Date:   Tue Apr 12 09:40:18 2022 -0300
+
+    Alteração no primeiro card
+
+[33mcommit 5e4268c92a9d13e4ee5720c70537ecbf58f8e15d[m
+Merge: ab19bad ee19818
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Tue Apr 5 09:53:56 2022 -0300
+
+    Merge pull request #2 from Gilvonaldo-Cavalcanti/view_welcome
+    
+    Melhorias no header, footer e chat
+
+[33mcommit ee19818dd9f7918b844c923ad51651e5666067fd[m[33m ([m[1;31mupstream/view_welcome[m[33m)[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 5 09:51:09 2022 -0300
+
+    Melhorias no header, footer e chat
+
+[33mcommit ab19bad24e02022b2b5a2375e937694c25323b51[m
+Merge: 4b93453 4d35c0c
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 5 07:49:11 2022 -0300
+
+    Merge branch 'master' of https://github.com/Gilvonaldo-Cavalcanti/Site-ECIT-JLS
+
+[33mcommit 4b93453e8c444410da71f03ecb79f95d4430a2b0[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Apr 5 07:47:56 2022 -0300
+
+    Remoçao do box-shadow do chat
+
+[33mcommit 4d35c0cecf51c5e96a39c46cb164ddf434184920[m
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Thu Mar 31 22:22:19 2022 -0300
+
+    Update README.md
+
+[33mcommit 6016f6d3e5209668c29c67c37f84bbddee324072[m
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Thu Mar 31 22:14:01 2022 -0300
+
+    Create README.md
+
+[33mcommit aaf3d1c0fb3fe2386c5173c11da053c8ab22ab58[m
+Merge: 1f58ac1 e9fece0
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Thu Mar 31 22:13:11 2022 -0300
+
+    Merge pull request #1 from Gilvonaldo-Cavalcanti/add-license-1
+    
+    Create LICENSE
+
+[33mcommit e9fece03098c1c1103c1792e75f71cb08a15e962[m[33m ([m[1;31mupstream/add-license-1[m[33m)[m
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Thu Mar 31 22:12:45 2022 -0300
+
+    Create LICENSE
+
+[33mcommit 1f58ac10795739554c336bae9b53fde2fce23813[m
+Author: Gilvonaldo Cavalcanti <55957154+Gilvonaldo-Cavalcanti@users.noreply.github.com>
+Date:   Tue Mar 29 16:21:22 2022 -0300
+
+    Delete README.md
+
+[33mcommit ab10f52bb72a2020e6a9c263f8511439f95c45a4[m
+Author: Gilvonaldo Cavalcanti <gilvonaldo@debian.gilvonaldo>
+Date:   Tue Mar 29 16:18:35 2022 -0300
+
+    Commit inicial
