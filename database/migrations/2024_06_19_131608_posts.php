@@ -16,8 +16,8 @@ class Posts extends Migration
         Schema::create('posts', function (Blueprint $table){
             $table->id();
             $table->string('tipo');
-            $table->string('titulo');
-            $table->string('conteudo');
+            $table->string('titulo', 256);
+            $table->string('conteudo', 8092);
             $table->timestamps();
         });
     }

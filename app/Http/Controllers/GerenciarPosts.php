@@ -15,9 +15,12 @@ class GerenciarPosts extends Controller
     }
 
     public function MostrarEvntPage($titulo){
-        $post = Posts::get()->where('titulo', $titulo)
+        $ptitulo = str_replace("-", " ", $titulo);
+        $post = Posts::get()->where('titulo', $ptitulo)
                             ->where('tipo', 'evento');
-                        
+
+        if($post->isEmpty())
+            abort(404);    
         return view('eventos')->with('post', $post);
     }
 

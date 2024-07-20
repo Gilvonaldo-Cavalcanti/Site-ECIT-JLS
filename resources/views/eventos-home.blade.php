@@ -65,7 +65,10 @@
     <div class="tabs-eventos">
         @foreach($posts as $post)
             <div class="tab-individual">
-                <a href="/eventos/{{$post->titulo}}">
+                @php 
+                    $ptitulo = str_replace(" ", "-", $post->titulo);
+                @endphp
+                <a href="/eventos/{{$ptitulo}}">
                     <h2 class="titulo-evento">{{$post->titulo}}</h2>
                 </a>
 
