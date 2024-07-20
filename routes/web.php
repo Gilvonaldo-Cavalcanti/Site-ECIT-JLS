@@ -44,10 +44,6 @@ Route::get('contato', function () {
 
 /* Status code páginas related: */
 // Possibilidade de trocar pelas páginas template do serviço HTTP (!)
-Route::get('unauthorized', function(){
-    return view('unauthorized');
-})->name('unauthorized');
-
 
 /* Autenticação related: */
 Route::get('login', [Autenticacao::class, 'MostrarFormLogin'])->name('login');
@@ -56,7 +52,7 @@ Route::post('login', [Autenticacao::class, 'Login']);
 Route::post('logout', [Autenticacao::class, 'Logout']);
 
 Route::middleware(['VerificarAuth'])->group(function (){    
-    Route::get('/dashboard', [UsersConteudo::class, 'MostrarDashboard']);
+    Route::get('/dashboard', [UsersConteudo::class, 'MostrarDashboard'])->name('dashboard');
 
     // Gerenciar Users
     //
