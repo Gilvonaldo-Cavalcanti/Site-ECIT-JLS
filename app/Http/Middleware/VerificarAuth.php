@@ -19,7 +19,7 @@ class VerificarAuth
         session_start();
      
         if(!isset($_SESSION['user_logged_in'])){
-            return redirect()->route('formlogin');    // Redireciona pra página de login se não autenticado.
+            return redirect()->route('login');    // Redireciona pra página de login se não autenticado.
         }
 
         return $next($request);

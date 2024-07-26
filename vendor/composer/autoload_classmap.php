@@ -16,8 +16,13 @@ return array(
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Autenticacao' => $baseDir . '/app/Http/Controllers/Autenticacao.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\GerenciarPosts' => $baseDir . '/app/Http/Controllers/GerenciarPosts.php',
     'App\\Http\\Controllers\\GoogleController' => $baseDir . '/app/Http/Controllers/GoogleController.php',
     'App\\Http\\Controllers\\Staffs' => $baseDir . '/app/Http/Controllers/Staffs.php',
+<<<<<<< HEAD
+=======
+    'App\\Http\\Controllers\\UsersConteudo' => $baseDir . '/app/Http/Controllers/UsersConteudo.php',
+>>>>>>> 90972472bf7b7dc69d04a555da35d70069ae1ea0
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
@@ -29,6 +34,7 @@ return array(
     'App\\Http\\Middleware\\VerificarAuth' => $baseDir . '/app/Http/Middleware/VerificarAuth.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Models\\Flight' => $baseDir . '/app/Models/Flight.php',
+    'App\\Models\\Posts' => $baseDir . '/app/Models/Posts.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',

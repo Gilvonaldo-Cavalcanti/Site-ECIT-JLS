@@ -28,7 +28,7 @@
                </div>
               <div class="logo">
                 <a href="/" >
-                  <img id="logo" src="img/logo-jls.png" alt="logo">
+                  <img id="logo" src="/img/logo-jls.png" alt="logo">
                 </a>
               </div>
 
@@ -46,6 +46,7 @@
                 @endconv
                 
                 @autcd
+                    <li><a href="/dashboard">Dashboard</a></li>
                     <li>
                         <form action="/logout" method="POST">
                             @csrf

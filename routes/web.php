@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\Autenticacao;
 use App\Http\Controllers\Staffs;
+use App\Http\Controllers\GerenciarPosts;
+use App\Http\Controllers\UsersConteudo;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,9 +32,10 @@ Route::get('equipe-desenvolvimento', function () {
     return view('equipe-desenvolvimento');
 });
 
-Route::get('eventos', function () {
-    return view('eventos');
-});
+Route::get('eventos', [GerenciarPosts::class, 'MostrarEventos'])->name('eventos');
+// colocar subdiretorio antes abaixo antes de titulo.
+// diferenciar de criar e del posts.
+Route::get('eventos/{titulo}', [GerenciarPosts::class, 'MostrarEvntPage']);
 
 Route::get('contato', function () {
     return view('contato');
@@ -41,10 +44,6 @@ Route::get('contato', function () {
 
 /* Status code páginas related: */
 // Possibilidade de trocar pelas páginas template do serviço HTTP (!)
-Route::get('unauthorized', function(){
-    return view('unauthorized');
-})->name('unauthorized');
-
 
 /* Autenticação related: */
 Route::get('login', [Autenticacao::class, 'MostrarFormLogin'])->name('login');
@@ -52,14 +51,21 @@ Route::post('login', [Autenticacao::class, 'Login']);
 
 Route::post('logout', [Autenticacao::class, 'Logout']);
 
-
 Route::middleware(['VerificarAuth'])->group(function (){    
-    Route::get('/dashboard', function(){
-        return view('dashboard');
-    })->name('dashboard');
+    Route::get('/dashboard', [UsersConteudo::class, 'MostrarDashboard'])->name('dashboard');
 
-    Route::post('dashboard/registrar', [Staffs::class, 'Registro']); // dashboard trata diretammente do registro
-    Route::post('dashboard/deletar', [Staffs::class, 'DeletarUser']);
+    // Gerenciar Users
+    //
+    Route::post('dashboard/registrar', [Staffs::class, 'Registro']); 
+    Route::post('dashboard/deletar-user', [Staffs::class, 'DeletarUser']);
+
+    // Gerenciar Posts 
+    // - General
+    Route::post('eventos/criar-post', [GerenciarPosts::class, 'CriarPost']);
+    Route::post('eventos/deletar-post', [GerenciarPosts::class, 'DeletarPost']);
+
+    // - Avisos na Dashboard
+    Route::get('dashboard#avisos', [GerenciarPosts::class, 'MostrarAvisos']);
 });
 
 

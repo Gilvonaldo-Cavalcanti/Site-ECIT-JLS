@@ -580,8 +580,13 @@ class ComposerStaticInitbf66b095fa2005898e199d0e4913ac5d
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Autenticacao' => __DIR__ . '/../..' . '/app/Http/Controllers/Autenticacao.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\GerenciarPosts' => __DIR__ . '/../..' . '/app/Http/Controllers/GerenciarPosts.php',
         'App\\Http\\Controllers\\GoogleController' => __DIR__ . '/../..' . '/app/Http/Controllers/GoogleController.php',
         'App\\Http\\Controllers\\Staffs' => __DIR__ . '/../..' . '/app/Http/Controllers/Staffs.php',
+<<<<<<< HEAD
+=======
+        'App\\Http\\Controllers\\UsersConteudo' => __DIR__ . '/../..' . '/app/Http/Controllers/UsersConteudo.php',
+>>>>>>> 90972472bf7b7dc69d04a555da35d70069ae1ea0
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -593,6 +598,7 @@ class ComposerStaticInitbf66b095fa2005898e199d0e4913ac5d
         'App\\Http\\Middleware\\VerificarAuth' => __DIR__ . '/../..' . '/app/Http/Middleware/VerificarAuth.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\Flight' => __DIR__ . '/../..' . '/app/Models/Flight.php',
+        'App\\Models\\Posts' => __DIR__ . '/../..' . '/app/Models/Posts.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
