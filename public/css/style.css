@@ -677,131 +677,22 @@ button {
     margin-top: 10px;
 }
 
-/* ------- Avisos na Dash ---------- */
-
-.avisos {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
+/* -contato- */
+.apresentacao_conteudo_texto {
+  
+  text-align: center;
+  text-justify: inter-word;
 }
 
-.aviso-imagem img{
-    border-radius: 10px;
-    padding-bottom: 5%;
-    max-height: 250px;
-    width: 100%;
+/*------institucional------*/
+.instit_centralized_text{
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 22px;
+;
+  
 }
 
-.aviso-content {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-left: 40px;
-    margin-bottom: 20px;
-}
-
-.aviso-titulo {
-    color: #1d85db;
-    margin: 0;
-    padding: 0;
-}
-
-.aviso-texto {
-    margin-bottom: 5%;
-}
-
-.aviso-popup {
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: none;
-
-    z-index: 999;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-}
-.popup-content {
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    width: 50%;
-    height: 50%;
-    background-color: white;
-}
-
-.popup-content p {
-    margin-top: 4%;
-}
-
-.popup-content button{
-    background-color: grey;
-    max-width: 500px;
-    max-height: 50px;
-}
-
-.ativo {
-    animation: show-popup 0.5s;
-    display: flex;
-}
-
-@keyframes show-popup {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-
-/*---Gerenciar Posts----
-* 
-* Retira os botões de up e down no input number */
-
-.gerenciar-posts{
-    margin-left: 83px;
-    margin-bottom: 25px;
-}
-
-input[type="number"] {
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  appearance: textfield;
-}
-
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none;
-}
-
-/* Criar posts content related */
-
- .criar-posts{
-    border-radius: 10px 0px 0px 10px;
-    background-color: white;
-    width: 500px;
-    text-align: center;
- }
-
- .criar-posts button{
-    background: #fcba03;
- }
-
-
- .deletar-posts {
-    border-radius: 0px 10px 10px 0px;
-    background-color: white;
-    width: 400px;
-    text-align: center;
-}
-
-.deletar-posts h2{
-    padding-top: 65px;
-}
-
-.deletar-posts button{
-    background: #fa1644;
-    margin: 0;
-    margin-top: 10px;
-}
 
 
 /* ------------- */
@@ -972,7 +863,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 .evento-id { margin: 0; padding: 0;}
-.evento-time { margin: 0; padding: 0;
+.evento-time { margin: 0; padding: 0};
 
 /* ---------------- */
 

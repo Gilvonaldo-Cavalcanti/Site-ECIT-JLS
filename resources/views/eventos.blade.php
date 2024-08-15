@@ -4,11 +4,8 @@
 
 @section('content')
 
-<div class="evento-content"> 
-    @foreach($post as $rows)
-        <h1 class="cont-titulo">{{$rows->titulo}}</h1>
-        <p class="cont-texto">{!! nl2br(e($rows->conteudo)) !!}</p>
-    @endforeach
+<div class="evnts">
+    <h1 class="botm">Nossos Eventos</h1>
 </div>
 
 @endsection
