@@ -64,7 +64,7 @@
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <h1>Olá, {{ $_SESSION['user_personal']['nome'] }}!</h1>
         </div>
-        <div class="tab-pane fade" id="agd-acolhimento" role="tabpanel" aria-labelledby="agd-acolhimento-tab">..</div>
+        <div class="tab-pane fade" id="agd-acolhimento" role="tabpanel" aria-labelledby="agd-acolhimento-tab"><img src="img/quadro-acolhimento-agosto.jpeg" alt="" ></div>
         <div class="tab-pane fade" id="boletims" role="tabpanel" aria-labelledby="boletims-tab">...</div>
         <div class="tab-pane fade" id="cardapio" role="tabpanel" aria-labelledby="cardapio-tab">...</div>
         <div class="tab-pane fade" id="avisos" role="tabpanel" aria-labelledby="mural-avisos-tab">...</div>

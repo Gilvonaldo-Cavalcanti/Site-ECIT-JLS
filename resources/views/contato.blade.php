@@ -6,16 +6,14 @@
 
 <div class="p-5 pb-5 conteudo-hist">
 
-<h2>Nossa Localização</h2>
+<h2 class="text-center">Nossa Localização</h2>
 
-<p> A Escola Cidadã Integral Técnica José Leite de Souza dispõe de um Regimento Interno para atender as peculiaridades de sua estrutura, organização e funcionamento fundamentado na LDB, na Legislação de Ensino, nas Orientações e Diretrizes Educacionais do Programa de Escola Cidadã Integral e da Educação Profissional para o trabalho (EPT), implementadas pela Secretaria de Estado da Educação (SEE/PB), através da Gerência Executiva do Ensino Médio e Educação Profissional (GEEMEP/SEE/PB) que orienta e fiscaliza pedagogicamente e administrativamente as ações executadas nesta Unidade de Ensino, além do respaldo executado pelo Conselho Escolar atuante e Participativo.</p>
+<p class="apresentacao_conteudo_texto">A Escola Cidadã Integral Técnica José Leite de Souza dispõe de um Regimento Interno para atender as peculiaridades de sua estrutura, organização e funcionamento fundamentado na LDB, na Legislação de Ensino, nas Orientações e Diretrizes Educacionais do Programa de Escola Cidadã Integral e da Educação Profissional para o trabalho (EPT), implementadas pela Secretaria de Estado da Educação (SEE/PB), através da Gerência Executiva do Ensino Médio e Educação Profissional (GEEMEP/SEE/PB) que orienta e fiscaliza pedagogicamente e administrativamente as ações executadas nesta Unidade de Ensino, além do respaldo executado pelo Conselho Escolar atuante e Participativo.</p>
 
 <ul>
     <li>Rua Wagner Bezerra Japiassú</li>
-    <li>Centro</li>
-    <li>Monteiro</li>
-    <li>Paraíba</li>
-    <li>INEP: </li>
+    <li>Centro de Monteiro-Paraiba</li>   
+    <li>INEP:25045377</li>
 </ul>
 
     <div class="container mt-5">

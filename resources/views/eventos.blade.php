@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="evnts">
-    <h1 class="botm">Nossa Página de Eventos</h1>
+    <h1 class="botm">Nossos Eventos</h1>
 </div>
 
 @endsection

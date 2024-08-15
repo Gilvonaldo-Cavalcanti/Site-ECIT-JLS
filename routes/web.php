@@ -38,6 +38,9 @@ Route::get('contato', function () {
     return view('contato');
 });
 
+Route::get('institucional', function () {
+    return view('institucional');
+});
 
 /* Status code páginas related: */
 // Possibilidade de trocar pelas páginas template do serviço HTTP (!)

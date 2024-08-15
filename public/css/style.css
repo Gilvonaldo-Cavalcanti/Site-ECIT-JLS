@@ -672,6 +672,24 @@ button {
     margin-top: 10px;
 }
 
+/* -contato- */
+.apresentacao_conteudo_texto {
+  
+  text-align: center;
+  text-justify: inter-word;
+}
+
+/*------institucional------*/
+.instit_centralized_text{
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 22px;
+;
+  
+}
+
+
+
 /* ------------- */
 
 .divisoria-colorida-governo {
