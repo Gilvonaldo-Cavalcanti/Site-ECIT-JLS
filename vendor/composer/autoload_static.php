@@ -583,10 +583,7 @@ class ComposerStaticInitbf66b095fa2005898e199d0e4913ac5d
         'App\\Http\\Controllers\\GerenciarPosts' => __DIR__ . '/../..' . '/app/Http/Controllers/GerenciarPosts.php',
         'App\\Http\\Controllers\\GoogleController' => __DIR__ . '/../..' . '/app/Http/Controllers/GoogleController.php',
         'App\\Http\\Controllers\\Staffs' => __DIR__ . '/../..' . '/app/Http/Controllers/Staffs.php',
-<<<<<<< HEAD
-=======
         'App\\Http\\Controllers\\UsersConteudo' => __DIR__ . '/../..' . '/app/Http/Controllers/UsersConteudo.php',
->>>>>>> 90972472bf7b7dc69d04a555da35d70069ae1ea0
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
