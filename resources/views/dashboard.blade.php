@@ -74,7 +74,37 @@
              @include('dashboard.avisos')
         </div>
 
-        <div class="tab-pane fade" id="horarios" role="tabpanel" aria-labelledby="horarios-tab">...</div>
+    
+
+        <div class="tab-pane fade" id="horarios" role="tabpanel" aria-labelledby="horarios-tab">
+    
+       
+        <img src="img/horario-1A.png" alt="" width="800px">
+        <img src="img/horario-1B.png" alt="" width="800px"> 
+        <img src="img/horario-1C.png" alt="" width="800px">
+        <img src="img/horario-1D.png" alt="" width="800px">
+        <img src="img/horario-1E.png" alt="" width="800px">
+        <img src="img/horario-1F.png" alt="" width="800px">
+        <img src="img/horario-1G.png" alt="" width="800px">
+        <img src="img/horario-1H.png" alt="" width="800px">
+        <img src="img/horario-2A.png" alt="" width="800px">
+        <img src="img/horario-2B.png" alt="" width="800px">
+        <img src="img/horario-2C.png" alt="" width="800px">
+        <img src="img/horario-2D.jpeg" alt="" width="800px">     
+        <img src="img/horario-2E.jpeg" alt="" width="800px">
+        <img src="img/horario-3A.jpeg" alt="" width="800px">
+        <img src="img/horario-3B.jpeg" alt="" width="800px">
+        <img src="img/horario-3C.jpeg" alt="" width="800px">
+        <img src="img/horario-3D.jpeg" alt="" width="800px">
+        <img src="img/horario-3E.jpeg" alt="" width="800px">
+
+   
+
+       
+                
+            </div>
+
+            
         @include('dashboard.painel-de-func')
     </div>
 </div>
