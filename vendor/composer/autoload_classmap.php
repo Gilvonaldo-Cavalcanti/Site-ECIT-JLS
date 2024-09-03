@@ -19,10 +19,7 @@ return array(
     'App\\Http\\Controllers\\GerenciarPosts' => $baseDir . '/app/Http/Controllers/GerenciarPosts.php',
     'App\\Http\\Controllers\\GoogleController' => $baseDir . '/app/Http/Controllers/GoogleController.php',
     'App\\Http\\Controllers\\Staffs' => $baseDir . '/app/Http/Controllers/Staffs.php',
-<<<<<<< HEAD
-=======
     'App\\Http\\Controllers\\UsersConteudo' => $baseDir . '/app/Http/Controllers/UsersConteudo.php',
->>>>>>> 90972472bf7b7dc69d04a555da35d70069ae1ea0
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
