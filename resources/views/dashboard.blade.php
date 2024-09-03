@@ -78,25 +78,18 @@
 
         <div class="tab-pane fade" id="horarios" role="tabpanel" aria-labelledby="horarios-tab">
     
+        <body>
+
+<h1>Horários das turmas</h1>
+
+<object class="pdf" 
+        data=
+"https://pdf.ac/2Fg0T1"
+        width="800"
+        height="500">
+</object>
+</body>
        
-        <img src="img/horario-1A.png" alt="" width="800px">
-        <img src="img/horario-1B.png" alt="" width="800px"> 
-        <img src="img/horario-1C.png" alt="" width="800px">
-        <img src="img/horario-1D.png" alt="" width="800px">
-        <img src="img/horario-1E.png" alt="" width="800px">
-        <img src="img/horario-1F.png" alt="" width="800px">
-        <img src="img/horario-1G.png" alt="" width="800px">
-        <img src="img/horario-1H.png" alt="" width="800px">
-        <img src="img/horario-2A.png" alt="" width="800px">
-        <img src="img/horario-2B.png" alt="" width="800px">
-        <img src="img/horario-2C.png" alt="" width="800px">
-        <img src="img/horario-2D.jpeg" alt="" width="800px">     
-        <img src="img/horario-2E.jpeg" alt="" width="800px">
-        <img src="img/horario-3A.jpeg" alt="" width="800px">
-        <img src="img/horario-3B.jpeg" alt="" width="800px">
-        <img src="img/horario-3C.jpeg" alt="" width="800px">
-        <img src="img/horario-3D.jpeg" alt="" width="800px">
-        <img src="img/horario-3E.jpeg" alt="" width="800px">
 
    
 
