@@ -5,7 +5,9 @@
 @section('content')
     <body>
         <h1 class="text-center">Modelo de escola protagonista</h1>
+     
         <p class="instit_centralized_text">A Escola Cidadã Integral Técnica (ECIT) José Leite de Souza, localizada em Monteiro, Paraíba, oferece cursos técnicos em Informática,  Manutenção e Suporte em Informática, Instrumento Musical e Designer de Moda. A escola se dedica a uma educação de excelência, baseada em valores como cidadania, ética e solidariedade, com a missão de desenvolver competências profissionais para o século XXI. Seu modelo pedagógico foca em excelência acadêmica, formação para a vida e desenvolvimento de habilidades do século XXI, promovendo o protagonismo dos estudantes. Com um modelo de gestão descentralizado e colaborativo, a escola envolve toda a comunidade escolar para melhorar continuamente os processos educativos. A escola possui uma infraestrutura reformada, com diversas salas temáticas e laboratórios, atendendo a 564 alunos com 37 docentes e 19 funcionários de apoio.</p>
+       
         <img src="img/mural.jpeg" alt="img">
 
         <h1 class="text-center">Escolas Cidadãs Integrais</h1>

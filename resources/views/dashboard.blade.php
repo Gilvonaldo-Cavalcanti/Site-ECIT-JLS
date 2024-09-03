@@ -74,7 +74,30 @@
              @include('dashboard.avisos')
         </div>
 
-        <div class="tab-pane fade" id="horarios" role="tabpanel" aria-labelledby="horarios-tab">...</div>
+    
+
+        <div class="tab-pane fade" id="horarios" role="tabpanel" aria-labelledby="horarios-tab">
+    
+        <body>
+
+<h1>Horários das turmas</h1>
+
+<object class="pdf" 
+        data=
+"https://pdf.ac/2Fg0T1"
+        width="800"
+        height="500">
+</object>
+</body>
+       
+
+   
+
+       
+                
+            </div>
+
+            
         @include('dashboard.painel-de-func')
     </div>
 </div>
